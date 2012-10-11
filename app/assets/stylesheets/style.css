@@ -38,7 +38,7 @@ h1{
 
 /***************NAVAGATION STYLING***************/
 .nav{
-	background:#624107;
+	background:#5784b0;
 	width:100%;
 	font-family: "Futura", cursive;  
 	font-weight: bold;
@@ -62,7 +62,7 @@ h1{
   padding-right: 5px;
   cursor:pointer;
   font-family: "Futura", cursive;  
-  color:blue;
+  color:#5784b0;
   background:black;
   font-size:18px;
     -webkit-border-radius: 15px;
@@ -96,7 +96,7 @@ h1{
       }
 #liner{
 	margin:120px 0 0 0;
-	
+
 }
 
 
