@@ -17,18 +17,21 @@ h1{
 	position:relative;
 	font-family: "Arial", cursive;  
 	font-size: 60px; 
-	color: #f7b30a;
-	margin: 50px 0 -10px 300px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#f7b30a), to(#f5951d));
+	margin: 50px 0 -40px 100px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5784B0), to(#3c5e7f));
 	  -webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
-		height: 88px;
-		padding: 3px;
+	/*height: 88px;*/
+	/*padding: 3px;*/
+	width: 900px;
+	border-bottom: 1px dotted #f7b30a;
+	
+
 }
 .sub { 
-	color: #f7b30a;
-	margin-left:250px;
-	font-size: 30px; 
+	color: #3c5e7f;
+	margin-left:200px;
+	font-size: 20px; 
 	font-family: "Futura", cursive;  
 	font-weight: normal; 
 }
@@ -89,7 +92,7 @@ h1{
 	margin:0px auto;
 	font-size: 60px; 
 	font-family: "Futura", cursive;  
-	border:solid 1px yellow;
+	border:solid 1px #EFE6D6;
 }
 #myCanvas {
         border:1px solid black;
@@ -112,8 +115,7 @@ h1{
 	font-family: "Futura", cursive;  
 	font-weight: bold;
 	background:#efe6d6;
-
-	border:solid red 1px;
+	border:solid #EFE6D6 1px;
 }
 #p1{
 	width: 700px;
@@ -132,6 +134,7 @@ h1{
 	-o-transform:rotate(-7deg); /* Opera */
 }	
 #skills{
+	color:#3c5e7f;
   font-size: 25px;
   margin-left: 340px;
   margin-top: 60px;
@@ -156,7 +159,7 @@ h1{
   position: relative;
   float: right;
   margin-top: -120px;
-margin-right: -20px;
+	margin-right: -20px;
 }
 
 
@@ -169,13 +172,13 @@ margin-right: -20px;
 	width: 1000px; 
 	height: 1000px; 
 	margin:50px auto 0 auto;
-	border: solid 1px #999; 
+	
 	background:#efe6d6;
 	font-family: "Futura", Arial, sans-serif; 
 	font-weight: bold;
 	font-size: 60px; 
 	color:#624107; 
-	border:solid green 1px;
+	border:solid #EFE6D6 1px;
 }	
 .my_carousel { 
 	position: relative; 
@@ -270,7 +273,7 @@ a {
 	font-size: 60px; 
 	font-family: "Futura", cursive; 
 	background:#efe6d6;
-	border:blue 1px solid;
+	border:#EFE6D6 1px solid;
 }
 
 label{
@@ -326,7 +329,9 @@ padding-right: 0px;
 #box_content{
   display:none;
 }
-
+.mer{
+	color:purple;
+}
 
 
 
