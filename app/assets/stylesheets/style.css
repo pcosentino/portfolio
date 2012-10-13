@@ -15,7 +15,7 @@ p {
 }
 h1{
 	position:relative;
-	font-family: "Arial", cursive;  
+	font-family: "Arial", sans-serif;  
 	font-size: 60px; 
 	margin: 60px 0 -40px 100px;
 	background: -webkit-gradient(linear, left top, left bottom, from(#5784B0), to(#3c5e7f));
@@ -24,13 +24,13 @@ h1{
 	/*height: 88px;*/
 	/*padding: 3px;*/
 	width: 900px;
-	border-bottom: 1px dotted #f7b30a;
+	border-bottom: 1px dotted #b08357;
 }
 .sub { 
 	color: #3c5e7f;
 	margin-left:200px;
 	font-size: 20px; 
-	font-family: "Futura", cursive;  
+	font-family: "Futura", sans-serif;  
 	font-weight: normal; 
 }
 
@@ -39,9 +39,10 @@ h1{
 
 /***************NAVAGATION STYLING***************/
 .nav{
-	background:#5784b0;
+	background:#b05757;
+
 	width:100%;
-	font-family: "Futura", cursive;  
+	font-family: "Futura", sans-serif;  
 	font-weight: bold;
 	position:fixed;
 	z-index:1003;
@@ -58,12 +59,12 @@ h1{
 .nav input{
 	position:relative;
 	width:180px;
-  padding:15px;
+  padding:10px;
   cursor:pointer;
-  font-family: "Futura", cursive;  
-  color:#5784b0;
-  background:black;
-  font-size:18px;
+  font-family: "Futura", sans-serif;  
+  color:#EFE6D6;
+  background:#5784b0;
+  font-size:20px;
     -webkit-border-radius: 15px;
   	-moz-border-radius: 15px;
   border-radius: 15px;
@@ -87,8 +88,8 @@ h1{
 	padding:60px 0px 0 0;
 	margin:0px auto;
 	font-size: 60px; 
-	font-family: "Futura", cursive;  
-	border:solid 1px #EFE6D6;
+	font-family: "Futura", sans-serif;  
+	/*border:solid 1px #EFE6D6;*/
 }
 #myCanvas {
         border:1px solid black;
@@ -108,7 +109,7 @@ h1{
 	height: 1000px;
 	margin:50px auto 0 auto;
 	font-size: 60px; 
-	font-family: "Futura", cursive;  
+	font-family: "Futura", sans-serif;  
 	font-weight: bold;
 	background:#efe6d6;
 	border:solid #EFE6D6 1px;
@@ -267,7 +268,7 @@ a {
 	color:#624107; 
 	margin:50px auto 0 auto;
 	font-size: 60px; 
-	font-family: "Futura", cursive; 
+	font-family: "Futura", sans-serif; 
 	background:#efe6d6;
 	border:#EFE6D6 1px solid;
 }
