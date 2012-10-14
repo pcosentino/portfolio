@@ -39,8 +39,12 @@ h1{
 
 /***************NAVAGATION STYLING***************/
 .nav{
-	background:#b05757;
-
+	background:#5784b0;
+  background-image: linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
 	width:100%;
 	font-family: "Futura", sans-serif;  
 	font-weight: bold;
@@ -62,8 +66,12 @@ h1{
   padding:10px;
   cursor:pointer;
   font-family: "Futura", sans-serif;  
-  color:#EFE6D6;
-  background:#5784b0;
+  color:#5784b0;
+  background-image: linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
   font-size:20px;
     -webkit-border-radius: 15px;
   	-moz-border-radius: 15px;
@@ -71,6 +79,8 @@ h1{
   	-moz-box-shadow:0px 0px 15px #444444;
   	-webkit-box-shadow:0px 0px 15px #444444;
 }
+a :active{background:green;}
+
 .right{
 	float:right;
 }
@@ -148,8 +158,6 @@ h1{
 }
 .col1{
   color:#666;
-  
-  
 }
 .col2{
   color: #666;
@@ -157,6 +165,11 @@ h1{
   float: right;
   margin-top: -120px;
 	margin-right: -20px;
+}
+.bb{
+	position: absolute;
+  margin-left: 350px;
+  margin-top:10px;
 }
 
 
