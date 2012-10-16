@@ -356,8 +356,21 @@ padding-right: 0px;
 
 
 
-@media only screen and (max-device-width: 640px) {
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 480px) {
 
-
+	
+.nav{
+	background: green;
+	width:100%;
+	font-family: "Futura", sans-serif;  
+	font-weight: bold;
+	position:fixed;
+	z-index:1003;
+	padding:0px 0px 0px 0px;
+}
+	
 }
 
