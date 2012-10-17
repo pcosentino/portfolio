@@ -359,7 +359,7 @@ padding-right: 0px;
 /************************************************************************************
 smaller than 560
 *************************************************************************************/
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 560px) {
 
 	
 .nav{
@@ -373,4 +373,26 @@ smaller than 560
 }
 
 }
+
+
+
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 1015px min-width: 560px) {
+
+	
+.nav{
+	background: yellow;
+	width:100%;
+	font-family: "Futura", sans-serif;  
+	font-weight: bold;
+	position:fixed;
+	z-index:1003;
+	padding:0px 0px 0px 0px;
+}
+
+}
+
 
