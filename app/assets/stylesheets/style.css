@@ -1,35 +1,33 @@
+
+
 body{
 	background:url(../assets/wood.jpeg);
-	margin-top: 0px; 
-	margin-bottom: 0px; 
-	margin-left: 0px;
-	margin-right: 0px;
-	padding: 0;
+	margin:0px;
 }
 p { 
 	color: #666; 
-	font-size: 16px; 
+	font-size: 14px; 
 	font-family: "Futura", Arial, sans-serif; 
 	font-weight: normal; 
-	margin: 20px auto 0px 20px;; 
+	margin: 20px 30px 0px 30px; 
 }
 h1{
 	position:relative;
 	font-family: "Arial", sans-serif;  
-	font-size: 60px; 
+	font-size: 1em; 
 	margin: 60px 0 -40px 100px;
 	background: -webkit-gradient(linear, left top, left bottom, from(#5784B0), to(#3c5e7f));
 	  -webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
-	/*height: 88px;*/
-	/*padding: 3px;*/
-	width: 900px;
+	  -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	color:#5784B0;/*mozilla*/
+	
 	border-bottom: 1px dotted #b08357;
 }
 .sub { 
 	color: #3c5e7f;
 	margin-left:200px;
-	font-size: 20px; 
+	font-size: .4em; 
 	font-family: "Futura", sans-serif;  
 	font-weight: normal; 
 }
@@ -52,13 +50,14 @@ h1{
 	z-index:1003;
 	padding:0px 0px 0px 0px;
 }
-.cunt{
+.one{
 	position:relative;
-	margin:0 auto;
-	width: 1000px;
+	margin:0 10%;
+	width: 100%;
+	display: inline-block;
 }
-.puss{
-	float:right;
+.two{
+	display: inline-block;
 }
 .nav input{
 	position:relative;
@@ -102,6 +101,7 @@ a :active{background:green;}
 	/*border:solid 1px #EFE6D6;*/
 }
 #myCanvas {
+				margin-left: 10px;
         border:1px solid black;
       }
 #liner{
@@ -115,7 +115,7 @@ a :active{background:green;}
 /***************ALL ABOUT ME PAGE STYLING***************/
 #about{
 	position: relative; 
-	width: 1000px; 
+	width: 80%; 
 	height: 1000px;
 	margin:50px auto 0 auto;
 	font-size: 60px; 
@@ -125,15 +125,15 @@ a :active{background:green;}
 	border:solid #EFE6D6 1px;
 }
 #p1{
-	width: 700px;
-	float: right;
-	margin: 30px 50px 0 0;
+	display: inline-block;
+  margin: 20px 30px 0px 360px;
+  
 }
 .pic{
-	width:200;
-	height:284;
-/*	border:white 15px solid;*/
-	margin-top:-20px;
+  display: inline-block;
+  margin: 5% 90px;
+  position: absolute;
+  -moz-transform: rotate(-7deg);  
 	transform:rotate(-7deg);
 	-ms-transform:rotate(-7deg); /* Internet Explorer */
 	-moz-transform:rotate(-7deg); /* Firefox */
@@ -142,30 +142,31 @@ a :active{background:green;}
 }	
 #skills{
 	color:#3c5e7f;
-  font-size: 25px;
-  margin-left: 340px;
-  margin-top: 60px;
+  font-size: 0.4em;
+  margin-left: 355px;
+  margin-top: 50px;
   width: 600px;
   font-weight: bold;
 }
-#column{
+.col1{
+  color:#666;
+}
+#column_item{
   background:url("../assets/close.png") no-repeat;
   margin-right:60px;
   padding-left:35px;
   padding-top:5px;
   width:300px;
-  font-size: 18px;
+  font-size: .7em;
 }
-.col1{
-  color:#666;
-}
-.col2{
+
+/*.col2{
   color: #666;
   position: relative;
   float: right;
   margin-top: -120px;
 	margin-right: -20px;
-}
+}*/
 .bb{
 	position: absolute;
   margin-left: 350px;
@@ -179,7 +180,7 @@ a :active{background:green;}
 /***************MY PORTFOLIO PAGE STYLING***************/
  #portfolio{ 
 	position: relative; 
-	width: 1000px; 
+	width: 80%; 
 	height: 1000px; 
 	margin:50px auto 0 auto;
 	
@@ -276,7 +277,7 @@ a {
 /***************CONTACT PAGE STYLING***************/
 #contact{
 	position: relative; 
-	width: 1000px; 
+	width: 80%; 
 	height: 2000px;
 	color:#624107; 
 	margin:50px auto 0 auto;
@@ -356,43 +357,5 @@ padding-right: 0px;
 
 
 
-/************************************************************************************
-smaller than 560
-*************************************************************************************/
-@media screen and (max-width: 560px) {
-
-	
-.nav{
-	background: green;
-	width:100%;
-	font-family: "Futura", sans-serif;  
-	font-weight: bold;
-	position:fixed;
-	z-index:1003;
-	padding:0px 0px 0px 0px;
-}
-
-}
-
-
-
-
-/************************************************************************************
-smaller than 560
-*************************************************************************************/
-@media screen and (max-width: 1015px min-width: 560px) {
-
-	
-.nav{
-	background: yellow;
-	width:100%;
-	font-family: "Futura", sans-serif;  
-	font-weight: bold;
-	position:fixed;
-	z-index:1003;
-	padding:0px 0px 0px 0px;
-}
-
-}
 
 
