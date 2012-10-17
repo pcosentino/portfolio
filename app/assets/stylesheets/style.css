@@ -116,7 +116,7 @@ a :active{background:green;}
 #about{
 	position: relative; 
 	width: 80%; 
-	height: 1000px;
+	height: 90%;
 	margin:50px auto 0 auto;
 	font-size: 60px; 
 	font-family: "Futura", sans-serif;  
@@ -131,7 +131,7 @@ a :active{background:green;}
 }
 .pic{
   display: inline-block;
-  margin: 5% 90px;
+  margin: 5% 100px;
   position: absolute;
   -moz-transform: rotate(-7deg);  
 	transform:rotate(-7deg);
@@ -145,7 +145,7 @@ a :active{background:green;}
   font-size: 0.4em;
   margin-left: 355px;
   margin-top: 50px;
-  width: 600px;
+  margin-bottom: 30px;
   font-weight: bold;
 }
 .col1{
@@ -156,7 +156,6 @@ a :active{background:green;}
   margin-right:60px;
   padding-left:35px;
   padding-top:5px;
-  width:300px;
   font-size: .7em;
 }
 
