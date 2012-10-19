@@ -358,7 +358,7 @@ h1{
 	color:red;/*mozilla*/
 	background: #EFE6D6;
 	border-bottom: 1px dotted #b08357;
-
+-webkit-text-fill-color: none;
 }
 
 
