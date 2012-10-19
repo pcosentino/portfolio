@@ -21,8 +21,9 @@ h1{
 	  -webkit-text-fill-color: transparent;
 	  -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
 	color:#5784B0;/*mozilla*/
-	
 	border-bottom: 1px dotted #b08357;
+
+
 }
 .sub { 
 	color: #3c5e7f;
@@ -345,8 +346,11 @@ padding-right: 0px;
 
 
 
-
-
+@media screen and (max-width: 600px) {
+  h1 {
+    border:1px solid red;
+  }
+}
 
 
 
