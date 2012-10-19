@@ -211,12 +211,12 @@ margin: auto;
 }
 .carousel_container { 
 	height: 300px;
-margin: 60px 0px;
+  margin: 60px 0px;
 	}
 #carousel { 
-	margin: 0px auto 0px auto; 
-	width: 900px; 
-	height: 250px; 
+	margin-left: 6%;
+	width: 90%;
+	height: 250px;
 }
 #carousel img { 
 	width: 150px; 
@@ -314,19 +314,19 @@ padding-right: 0px;
 .box
 {
 	position:absolute;
-	top: 235%;
-	left:30%;
-	height:500px;
-	overflow-y:scroll;
+	top: 220%;
+	left:20%;
+	/*height:500px;
+	overflow-y:scroll;*/
 	background:#000;
-	z-index:1000;
+	z-index:1003;
 	padding:10px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
 	border-radius: 5px;
-	-moz-box-shadow:0px 0px 5px #444444;
-	-webkit-box-shadow:0px 0px 5px #444444;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
 	box-shadow:0px 0px 5px #444444;
+		-moz-box-shadow:0px 0px 5px #444444;
+		-webkit-box-shadow:0px 0px 5px #444444;
 	display:none;
 }
 .close

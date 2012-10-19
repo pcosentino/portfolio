@@ -18,7 +18,8 @@ function createCarousel(){
 		childSelector: 'img',
 		tilt: -4.5,
 		minOpacity:1,
-		minScale: .45,
+		minScale: .4,
+        maxScale: 1.1,
 		duration: 1200,
 		clickToFocus: true,
 		clickToFocusCallback: showCaption
@@ -89,13 +90,19 @@ $(document).ready(function(){
 
   			});
 
-  			function close_box()
+  			
+
+
+
+            function close_box()
   			{
   				$('.backdrop, .box').animate({'opacity':'0'}, 300, 'linear', function(){
   					$('.backdrop, .box').css('display', 'none');
   				});
   			}
   			
+
+
   			
   					function ScrollToBottom() {
             $('html,body').animate({
