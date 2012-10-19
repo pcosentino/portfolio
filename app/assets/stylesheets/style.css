@@ -355,6 +355,11 @@ padding-right: 0px;
 }
 
 
-
+@media screen and (max-width: 320px) {
+	h1{
+		color:green;
+		
+	}
+}
 
 
