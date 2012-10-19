@@ -346,7 +346,7 @@ padding-right: 0px;
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 300px) {
   h1 {
     border:1px solid red;
   }
