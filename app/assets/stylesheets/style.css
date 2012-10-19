@@ -16,10 +16,10 @@ h1{
 	font-family: "Arial", sans-serif;  
 	font-size: 1em; 
 	margin: 60px 0 -40px 100px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#5784B0), to(#3c5e7f));
-	  -webkit-background-clip: text;
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#5784B0), to(#3c5e7f));*/
+	  /*-webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
-	  -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	  -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);*/
 	color:#5784B0;/*mozilla*/
 	border-bottom: 1px dotted #b08357;
 
@@ -347,21 +347,12 @@ padding-right: 0px;
 
 
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-
-h1{
-	position:relative;
-	font-family: "Arial", sans-serif;  
-	font-size: 1em; 
-	margin: 60px 0 -40px 100px;
-	color:red;/*mozilla*/
-	background: #EFE6D6;
-	border-bottom: 1px dotted #b08357;
--webkit-text-fill-color: none;
+@media screen and (max-width: 600px) {
+	h1{
+		color:red;
+		
+	}
 }
-
-
 
 
 
