@@ -350,18 +350,13 @@ padding-right: 0px;
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
 
-
-#contact{
-	position: relative; 
-	width: 90%; 
-	height: 2000px;
-	color:#624107; 
-	margin:50px auto 0 auto;
-	font-size: 60px; 
-	font-family: "Futura", sans-serif; 
-	background:green;
-	border:#EFE6D6 1px solid;
-}
+h1{
+	position:relative;
+	font-family: "Arial", sans-serif;  
+	font-size: 1em; 
+	margin: 60px 0 -40px 100px;
+	color:#5784B0;/*mozilla*/
+	border-bottom: 1px dotted #b08357;
 
 }
 
