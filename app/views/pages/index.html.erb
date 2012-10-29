@@ -211,7 +211,7 @@
 
 	  <h1>CONTACT</h1><span class="sub"> don't be shy, drop by and say HI!</span>
 
-         <form>
+         <!-- <form>
          <table width="450px">
          <tr>
           <td valign="top">
@@ -251,9 +251,14 @@
           </td>
          </tr>
          </table>
-         </form>
+         </form> -->
 
-
+    <%= form_tag url_for(:action => 'send_email'), :remote => true do %>
+      <%= label_tag :first_name, 'First Name:', :class => "first_name_label" %>
+      <%= text_field_tag :first_name, '', :name => "user[first_name]", :size => "30" %><br />
+      <%= text_field_tag :last_name, '', :name => "user[last_name]", :size => "30" %>
+      <%= submit_tag "Submit"%>
+    <% end %>
 
 
 

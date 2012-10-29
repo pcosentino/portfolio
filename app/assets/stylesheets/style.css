@@ -53,13 +53,12 @@ h1{
 }
 .one{
 	position:relative;
-	margin:0 10%;
+	margin:0.2% 10%;
 	width: 100%;
 	display: inline-block;
 }
 
 .nav input{
-	
 	position:relative;
 	width:20%;
   padding:10px;
@@ -78,7 +77,7 @@ h1{
   	-moz-box-shadow:0px 0px 15px #444444;
   	-webkit-box-shadow:0px 0px 15px #444444;
 }
-a :active{color:green;}
+
 
 
 
