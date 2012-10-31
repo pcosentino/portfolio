@@ -50,12 +50,14 @@ h1{
 	position:fixed;
 	z-index:1003;
 	padding:0px 0px 0px 0px;
+	height: 70px;
 }
 .one{
 	position:relative;
-	margin:0.2% 10%;
+	
 	width: 100%;
 	display: inline-block;
+	margin: 9px auto;
 }
 
 .nav input{
