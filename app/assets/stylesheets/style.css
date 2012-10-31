@@ -57,7 +57,7 @@ h1{
 	
 	width: 100%;
 	display: inline-block;
-	margin: 9px auto;
+	
 }
 
 .nav input{
@@ -78,6 +78,8 @@ h1{
   border-radius: 15px;
   	-moz-box-shadow:0px 0px 15px #444444;
   	-webkit-box-shadow:0px 0px 15px #444444;
+  height: 70px;
+
 }
 
 
