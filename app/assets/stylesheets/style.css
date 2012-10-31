@@ -35,7 +35,7 @@ h1{
 
 
 /***************NAVAGATION STYLING***************/
-.nav{
+.nav_wrap{
 	background:#5784b0;
   background-image: linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
 	background-image: -o-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
@@ -50,19 +50,23 @@ h1{
 	padding:0px 0px 0px 0px;
 	height: 70px;
 }
-.nav a { 
+.nav_wrap a { 
 	color: #fff; 
 	text-decoration: none; 
 	font-size:20px;
-	margin: 40px;
-	display: inline-block;
+	margin:20px 40px;
+	
 }
-.one{
+.nav{
 	position:relative;
 	text-align: center;
-	width: 100%;
-	display: inline-block;
+	width: 800px;
+	margin: 0 auto;
 	
+}
+.nav_text{
+	position: relative;
+	width:800px;
 }
 .nav input{
 	position:relative;
