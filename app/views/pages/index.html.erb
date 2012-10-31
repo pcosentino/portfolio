@@ -7,10 +7,15 @@
   <!-- NAVIGATION -->   				
     <div class="nav">
       <div class="one">
-        <input type="button" id="btnScrollToTop" value="HOME" onclick="ScrollToTop()" /> 
+        <!-- <input type="button" id="btnScrollToTop" value="HOME" onclick="ScrollToTop()" /> 
         <input type="button" id="btnScrollPositionB" value="ABOUT" onclick="ScrollToPositionB()" />
         <input type="button" id="btnScrollPositionA" value="PORTFOLIO" onclick="ScrollToPositionA()" />
-        <input type="button" id="btnScrollPositionC" value="CONTACT" onclick="ScrollToPositionC()" />
+        <input type="button" id="btnScrollPositionC" value="CONTACT" onclick="ScrollToPositionC()" /> -->
+
+        <a href="#" id="btnScrollToTop" value="HOME" onclick="ScrollToTop()" >HOME</a>
+        <a href="#" id="btnScrollPositionB" value="ABOUT" onclick="ScrollToPositionB()" >ABOUT</a>
+        <a href="#" id="btnScrollPositionA" value="PORTFOLIO" onclick="ScrollToPositionA()" >PORTFOLIO</a>
+        <a href="#" id="btnScrollPositionC" onclick="ScrollToPositionC()">CONTACT</a>
       </div>
     </div>
     
@@ -26,6 +31,7 @@
   	  
       <!-- <canvas id="myCanvas" width="1000" height="500"> </canvas> -->
   	  <span class="right"><img src="assets/html5.png"/><span>the web is my canvas"</span></span>
+
   	</div>
 		 	
 
@@ -227,9 +233,6 @@
 
       <%= submit_tag "Submit", :id => "submit_form_button" %>
     <% end %>
-
-
-
 
 
 

@@ -22,8 +22,6 @@ h1{
 	  -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);*/
 	color:#5784B0;/*mozilla*/
 	border-bottom: 1px dotted #b08357;
-
-
 }
 .sub { 
 	color: #3c5e7f;
@@ -52,14 +50,20 @@ h1{
 	padding:0px 0px 0px 0px;
 	height: 70px;
 }
+.nav a { 
+	color: #fff; 
+	text-decoration: none; 
+	font-size:20px;
+	margin: 40px;
+	display: inline-block;
+}
 .one{
 	position:relative;
-	
+	text-align: center;
 	width: 100%;
 	display: inline-block;
 	
 }
-
 .nav input{
 	position:relative;
 	/*width:20%;*/
