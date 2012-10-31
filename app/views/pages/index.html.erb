@@ -211,59 +211,18 @@
 
 	  <h1>CONTACT</h1><span class="sub"> don't be shy, drop by and say HI!</span>
 
-         <!-- <form>
-         <table width="450px">
-         <tr>
-          <td valign="top">
-           <label for="first_name">First Name *</label>
-          </td>
-          <td valign="top">
-           <input  type="text" name="first_name" maxlength="50" size="30" />
-          </td>
-         </tr>
-         <tr>
-          <td valign="top">
-           <label for="last_name">Last Name *</label>
-          </td>
-          <td valign="top">
-           <input  type="text" name="last_name" maxlength="50" size="30">
-          </td>
-         </tr>
-         <tr>
-          <td valign="top">
-           <label for="email">Email Address *</label>
-          </td>
-          <td valign="top">
-           <input  type="text" name="email" maxlength="80" size="30">
-          </td>
-         </tr>
-         <tr>
-          <td valign="top">
-           <label for="comments">Comments *</label>
-          </td>
-          <td valign="top">
-           <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-          </td>
-         </tr>
-         <tr>
-          <td colspan="2" style="text-align:center">
-           <input type="submit" value="Submit">  
-          </td>
-         </tr>
-         </table>
-         </form> -->
-
     <%= form_tag url_for(:action => 'send_email'), :remote => true do %>
       <%= label_tag :first_name, 'First Name:', :class => "first_name_label" %>
-      <%= text_field_tag :first_name, '', :name => "user[first_name]", :size => "30" %><br>
+      <%= text_field_tag :first_name, '', :name => "user[first_name]", :size => "41" %><br>
       
       <%= label_tag :last_name, 'Last Name:', :class => "last_name_label" %>
-      <%= text_field_tag :last_name, '', :name => "user[last_name]", :size => "30" %><br>
+      <%= text_field_tag :last_name, '', :name => "user[last_name]", :size => "41" %><br>
       
       <%= label_tag :email_address, 'Email Address:', :class => "email_address_label" %>
-      <%= text_field_tag :email_address, '', :name => "user[email_address]", :size => "30" %><br>
+      <%= text_field_tag :email_address, '', :name => "user[email_address]", :size => "41" %><br>
 
-      <%= label_tag :notes, 'How can I assit you?', :class => "notes" %>
+      <p>How can I help you?</p>
+      <%= label_tag :notes, '', :class => "notes" %>
       <%= text_area_tag :notes, '', :name => "user[notes]", :size => "30x10" %><br>
 
       <%= submit_tag "Submit", :id => "submit_form_button" %>

@@ -280,6 +280,10 @@ a {
 	background:#efe6d6;
 	border:#EFE6D6 1px solid;
 }
+#contact p{
+	font-size: 16px;
+	margin-left: 13px;
+}
 label{
 color: #666;
 font-size: 16px;
@@ -293,7 +297,13 @@ form{
 	z-index: 900000;
 }
 .first_name_label{
-
+ margin-left: 68px;
+}
+.last_name_label{
+ margin-left: 69px;
+}
+.email_address_label{
+ margin-left: 42px;
 }
 #submit_form_button{
 	position: relative;
@@ -318,6 +328,7 @@ form{
 }
 #notes{
 	resize:none;
+	margin-left:173px;
 }
 
 
