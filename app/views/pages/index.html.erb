@@ -264,7 +264,7 @@
       <%= text_field_tag :email_address, '', :name => "user[email_address]", :size => "30" %><br>
 
       <%= label_tag :notes, 'How can I assit you?', :class => "notes" %>
-      <%= text_field_tag :notes, '', :name => "user[notes]", :size => "30" %><br>
+      <%= text_area_tag :notes, '', :name => "user[notes]", :size => "30x10" %><br>
 
       <%= submit_tag "Submit", :id => "submit_form_button" %>
     <% end %>
