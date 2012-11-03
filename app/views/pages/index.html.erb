@@ -69,14 +69,14 @@
     		  <div id="column_item">Branding & Identity</div> 
           <div id="column_item">Version Control</div> 
           <div id="column_item">Command Line</div> 
-          <div id="column_item">HTML/CSS</div>
-          <div id="column_item">Motion Graphics</div>
-          <div id="column_item">Social Media</div>
-          <div id="column_item">Search Engine Optimization</div>
   		  </div>
 		  
-		    <!-- <div class="col2">
-  		  </div> -->
+		    <div class="col2">
+          <div id="column_item">HTML/CSS</div>
+          <div id="column_item">Motion Graphics</div>
+          <div id="column_item">Social Media</div>   
+          <div id="column_item">Search Engine Optimization</div>  
+  		  </div>
 		</div>
 	</div>  		
 				
@@ -217,6 +217,10 @@
 	  <a name="contact"></a>
 
 	  <h1>CONTACT</h1><span class="sub"> don't be shy, drop by and say HI!</span>
+      <p id="contact_blurb">
+        I'm currently available for freelance projects or full-time work. If you're interested in working with me, please get in touch using one of the methods below. Or feel free to just say hi. I like that too.
+     </p>
+
 
     <%= form_tag url_for(:action => 'send_email'), :remote => true do %>
       <%= label_tag :first_name, 'First Name:', :class => "first_name_label" %>
@@ -228,7 +232,7 @@
       <%= label_tag :email_address, 'Email Address:', :class => "email_address_label" %>
       <%= text_field_tag :email_address, '', :name => "user[email_address]", :size => "41" %><br>
 
-      <p>How can I help you?</p>
+      <div id="tag">How can I help you?</div>
       <%= label_tag :notes, '', :class => "notes" %>
       <%= text_area_tag :notes, '', :name => "user[notes]", :size => "30x10" %><br>
 

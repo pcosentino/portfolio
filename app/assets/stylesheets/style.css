@@ -15,7 +15,7 @@ h1{
 	position:relative;
 	font-family: "Arial", sans-serif;  
 	font-size: 1em; 
-	margin: 60px 0 -40px 100px;
+	margin: 65px 0 -40px 100px;
 	/*background: -webkit-gradient(linear, left top, left bottom, from(#5784B0), to(#3c5e7f));*/
 	  /*-webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
@@ -67,6 +67,7 @@ h1{
 .nav_text{
 	position: relative;
 	width:800px;
+	margin-top: 19px;
 }
 .nav input{
 	position:relative;
@@ -162,6 +163,7 @@ h1{
 }
 .col1{
   color:#666;
+  display: inline-block;
 }
 #column_item{
   background:url("../assets/close.png") no-repeat;
@@ -170,13 +172,14 @@ h1{
   padding-top:5px;
   font-size: .7em;
 }
-/*.col2{
+.col2{
+	display: inline-block;
   color: #666;
-  position: relative;
+  /*position: relative;
   float: right;
   margin-top: -120px;
-	margin-right: -20px;
-}*/
+	margin-right: -20px;*/
+}
 
 
 
@@ -285,14 +288,19 @@ a {
 	position: relative; 
 	width: 90%; 
 	height: 2000px;
-	color:#624107; 
 	margin:50px auto 0 auto;
 	font-size: 60px; 
 	font-family: "Futura", sans-serif; 
 	background:#efe6d6;
 	border:#EFE6D6 1px solid;
 }
-#contact p{
+#contact_blurb{
+	color:#666;
+	margin-left: 5%;
+  margin-right: 5%;
+}
+#tag{
+	color: #666;
 	font-size: 16px;
 	margin-top: 35px;
 	margin-left: 13px;
@@ -306,10 +314,8 @@ padding-left: 15px;
 }
 form{
 	position: relative;
-	/*border:1px solid red;*/
-	width: 450px;
-	margin:0 auto;
-	
+  width: 500px;
+  margin: 0 20%;
 }
 .first_name_label{
  margin-left: 68px;
