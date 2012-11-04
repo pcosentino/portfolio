@@ -223,18 +223,16 @@
 
 
     <%= form_tag url_for(:action => 'send_email'), :remote => true do %>
-      <div id="tag1">How can I help you?</div>
-      <%= label_tag :first_name, 'First Name:', :class => "first_name_label" %>
+      <div id="tag1">First Name:</div>
+      
       <%= text_field_tag :first_name, '', :name => "user[first_name]", :size => "41" %><br>
-      
-      <%= label_tag :last_name, 'Last Name:', :class => "last_name_label" %>
+      <div id="tag1">Last Name:</div>
       <%= text_field_tag :last_name, '', :name => "user[last_name]", :size => "41" %><br>
+      <div id="tag1">Email Address:</div>
       
-      <%= label_tag :email_address, 'Email Address:', :class => "email_address_label" %>
       <%= text_field_tag :email_address, '', :name => "user[email_address]", :size => "41" %><br>
-
-      <div id="tag">How can I help you?</div>
-      <%= label_tag :notes, '', :class => "notes" %>
+      <div id="tag1">How can I help you?</div>
+      
       <%= text_area_tag :notes, '', :name => "user[notes]", :size => "30x10" %><br>
 
       <%= submit_tag "Submit", :id => "submit_form_button" %>
