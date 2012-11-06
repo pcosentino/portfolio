@@ -1,5 +1,3 @@
-// JavaScript Document
-// Written by Chris Converse for lynda.com
 
 
 var startingItem = 0;
@@ -104,30 +102,28 @@ $(document).ready(function(){
 
 
   			
-  					function ScrollToBottom() {
+  			function ScrollToBottom() {
             $('html,body').animate({
                    scrollTop: $('#btnScrollToTop').offset().top}, 2000);
             }
 
-             function ScrollToPositionA() {
-              $('html,body').animate({
+            function ScrollToPositionA() {
+            $('html,body').animate({
                     scrollTop: $('#portfolio').offset().top}, 1000);
-              }
+            }
             
-              function ScrollToPositionB() {
-                $('html,body').animate({
+            function ScrollToPositionB() {
+            $('html,body').animate({
                       scrollTop: $('#about').offset().top}, 1000);
-                }
+            }
            
             function ScrollToPositionC() {
             $('html,body').animate({
                   scrollTop: $('#contact').offset().top}, 1000);
             }
 
-            
-              
             function ScrollToTop() {
-                   $('html,body').animate({scrollTop: 0}, 1000);
+            $('html,body').animate({scrollTop: 0}, 1000);
             }
   		
 
