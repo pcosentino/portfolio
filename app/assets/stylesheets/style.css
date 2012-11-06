@@ -308,10 +308,16 @@ margin: auto;
 #work{
 	margin: 60px 30px 30px 100px;
 	padding: 20px 0 0 20px;
-	background: yellow;
 }
-
-
+.cat{
+	padding-left:10px;
+}
+#fade{
+  opacity: .7;
+}
+#fade:hover{
+  opacity: 1.0;
+}
 
 
 
