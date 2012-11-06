@@ -30,6 +30,11 @@ h1{
 	font-family: "Futura", sans-serif;  
 	font-weight: normal; 
 }
+a { 
+	color: #5784B0; 
+	text-decoration: none; 
+	font-size:20px;
+}
 
 
 
@@ -275,11 +280,40 @@ margin: auto;
 .carousel_data { 
 	display: none; 
 }	
-a { 
-	color: #5784B0; 
-	text-decoration: none; 
-	font-size:20px;
+
+
+
+
+
+
+
+
+
+
+
+
+/***************FAKE PORTFOLIO STYLING***************/
+ #fake_portfolio{ 
+	position: relative; 
+	width: 90%; 
+	height: 100%; 
+	margin:50px auto 0 auto;
+	background:#efe6d6;
+	font-family: "Futura", Arial, sans-serif; 
+	font-weight: bold;
+	font-size: 60px; 
+	color:#624107; 
+	border:solid #EFE6D6 1px;
+}	
+#work{
+	margin: 60px 30px 30px 100px;
+	padding: 20px 0 0 20px;
+	background: yellow;
 }
+
+
+
+
 
 
 
