@@ -55,7 +55,7 @@ a {
 	padding:0px 0px 0px 0px;
 	height: 70px;
 }
-.nav_wrap a { 
+/*.nav_wrap a { 
 	color: #fff; 
 	text-decoration: none; 
 	font-size:20px;
@@ -76,7 +76,6 @@ a {
 }
 .nav input{
 	position:relative;
-	/*width:20%;*/
   padding:10px;
   cursor:pointer;
   font-family: "Futura", sans-serif;  
@@ -97,7 +96,7 @@ a {
 .nav a:hover
 {
 color: black;
-}
+}*/
 
 
 
@@ -735,9 +734,11 @@ form{
 }
 
 nav {
-	width: 90%;
-	margin: 100px auto;
-	overflow: hidden;	
+	width: 100%;
+	margin: 0px auto;
+	overflow: hidden;
+	position: fixed;
+	z-index: 1003;	
 }
 
 nav ul {
@@ -746,7 +747,12 @@ nav ul {
 }
 
 nav li a {
-	background: #444;
+	background:#5784b0;
+  background-image: linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
 	border-right: 1px solid #fff;
 	color: #fff;
 	display: block;
@@ -757,6 +763,7 @@ nav li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	width: 25%;
+
 	
 	/*TRANSISTIONS*/
 	-webkit-transition: background 0.5s ease;
@@ -834,7 +841,7 @@ only screen and (max-device-width : 1220px){
 only screen and (max-device-width : 1008px){
 	nav li a {
 		width: 25%;
-		border-bottom: 1px solid #fff;
+		
 		font: 400 13px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
 	}
 	
@@ -851,7 +858,7 @@ only screen and (max-device-width : 1008px){
 only screen and (max-device-width : 580px){
 	nav li a {
 		width: 25%;
-		border-bottom: 1px solid #fff;
+		
 		font: 400 10px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
 	}
 	
