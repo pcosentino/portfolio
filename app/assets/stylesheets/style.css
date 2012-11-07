@@ -40,7 +40,7 @@ a {
 
 
 /***************NAVAGATION STYLING***************/
-.nav_wrap{
+/*.nav_wrap{
 	background:#5784b0;
   background-image: linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
 	background-image: -o-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
@@ -55,7 +55,7 @@ a {
 	padding:0px 0px 0px 0px;
 	height: 70px;
 }
-/*.nav_wrap a { 
+.nav_wrap a { 
 	color: #fff; 
 	text-decoration: none; 
 	font-size:20px;
@@ -753,7 +753,7 @@ nav li a {
 	background-image: -moz-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
 	background-image: -webkit-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
 	background-image: -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
-	border-right: 1px solid #fff;
+	border-right: 2px solid #fff;
 	color: #fff;
 	display: block;
 	float: left;
@@ -763,6 +763,7 @@ nav li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	width: 25%;
+	height:20%; 
 
 	
 	/*TRANSISTIONS*/
@@ -829,7 +830,7 @@ nav .red {
 @media only screen and (max-width : 1220px),
 only screen and (max-device-width : 1220px){
 	nav li a {
-		font: 400 16px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+		font: 400 20px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
 	}
 	
 	nav small {
@@ -841,8 +842,7 @@ only screen and (max-device-width : 1220px){
 only screen and (max-device-width : 1008px){
 	nav li a {
 		width: 25%;
-		
-		font: 400 13px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+		font: 400 18px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
 	}
 	
 	nav li:last-child a, nav li:nth-child(4) a {
@@ -858,8 +858,7 @@ only screen and (max-device-width : 1008px){
 only screen and (max-device-width : 580px){
 	nav li a {
 		width: 25%;
-		
-		font: 400 10px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+		font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
 	}
 	
 	nav li:last-child a, nav li:nth-child(4) a {
