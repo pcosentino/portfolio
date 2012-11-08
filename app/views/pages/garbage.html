@@ -1,0 +1,313 @@
+ <!-- NAVIGATION -->   				
+    <!-- <div class="nav_wrap"> -->
+      <!-- <div class="nav">
+        <input type="button" id="btnScrollToTop" value="HOME" onclick="ScrollToTop()" /> 
+        <input type="button" id="btnScrollPositionB" value="ABOUT" onclick="ScrollToPositionB()" />
+        <input type="button" id="btnScrollPositionA" value="PORTFOLIO" onclick="ScrollToPositionA()" />
+        <input type="button" id="btnScrollPositionC" value="CONTACT" onclick="ScrollToPositionC()" />
+        <div class="nav_text">
+        <a href="#button" id="btnScrollToTop" value="HOME" onclick="ScrollToTop()" >HOME</a>
+        <a href="#button" id="btnScrollPositionB" value="ABOUT" onclick="ScrollToPositionB()" >ABOUT</a>
+        <a href="#button" id="btnScrollPositionA" value="PORTFOLIO" onclick="ScrollToPositionA()" >PORTFOLIO</a>
+        <a href="#button" id="btnScrollPositionC" onclick="ScrollToPositionC()">CONTACT</a>
+        </div>
+      </div> -->
+ <!-- </div> -->
+
+
+ <!-- LIGHTBOX -->
+    <div class="backdrop"></div>
+    <div class="box">
+      <div class="close"><img src="assets/close.png"/></div>
+      <div id="content">Light Box Text</div>
+    </div>
+
+        <!-- Carousel -->
+ <div class="my_carousel">
+            <!-- Carousel Containter -->
+  <div class="carousel_container">
+                    
+            <div id="carousel"></div>
+                <img class="nextItem" src="assets/arrow_left.png"/>
+                <img class="prevItem" src="assets/arrow_right.png"/>
+            </div>
+    
+            <!-- Caption Container -->
+            <div class="caption_container">
+                <div id="captions"></div>
+            </div>
+        
+
+          <div class="carousel_data">
+                        <!-- begin items -->
+                        <!-- Item -->
+            <div class="carousel_item">
+                  <div class="image"><img src="assets/touch_preview.jpg"/></div>
+                    <div class="caption">
+                        <h2>Buzz</h2>
+                
+                          <p>this is buzz lightyear</p>
+                          <a href="#" class="lightbox"> CHECK ME OUT</a>
+                          <div id="box_content"><img src="assets/touch_purl.jpg"/></div>
+                          <br>
+                
+                    </div>  
+            </div>
+          </div>
+                
+            
+                
+          <div class="carousel_data">
+                        <!-- begin items -->
+                        <!-- Item -->
+            <div class="carousel_item">
+                <div class="image"><img src="assets/asa_preview.jpg"/></div>
+                    <div class="caption">
+                        <h2>Woody</h2>
+                
+                          <p>this is Sheriff Woody</p> 
+                          <a href="#" class="lightbox"> CHECK ME OUT</a>
+                          <div id="box_content"><img src="assets/asa_purl.jpg"/></div>
+                          <br>
+            
+                    </div>  
+            </div>
+          </div>
+
+
+          <div class="carousel_data">
+                        <!-- begin items -->
+                        <!-- Item -->
+            <div class="carousel_item">
+                <div class="image"><img src="assets/thumb_image3.jpg"/></div>
+                    <div class="caption">
+                        <h2>Jesse</h2>
+                
+                          <p>this is Jesse</p> 
+                          <a href="#" class="lightbox"> CHECK ME OUT</a>
+                          <div id="box_content"><img src="assets/image3.jpg"/></div>
+                          <br>
+            
+                    </div>  
+            </div>
+          </div>
+
+
+          <div class="carousel_data">
+                        <!-- begin items -->
+                        <!-- Item -->
+            <div class="carousel_item">
+                <div class="image"><img src="assets/thumb_image4.jpg"/></div>
+                    <div class="caption">
+                        <h2>Rex</h2>
+                
+                          <p>this is Rex</p> 
+                          <a href="#" class="lightbox"> CHECK ME OUT</a>
+                          <div id="box_content"><img src="assets/image4.jpg"/></div>
+                          <br>
+            
+                    </div>  
+            </div>
+          </div>
+
+
+          <div class="carousel_data">
+                        <!-- begin items -->
+                        <!-- Item -->javascript:void(0)
+            <div class="carousel_item">
+                <div class="image"><img src="assets/frito_preview.jpg" width="200px" height="200px"/></div>
+                    <div class="caption">
+                        <h2>Frito Reskin</h2>
+                
+                          <p>The Frito Reskin Project involved a precoded website and laying on a completely different look (and feel)</p> 
+                          <a href="#" class="lightbox">lets take a look, shall we?</a>
+                          <div id="box_content"><img src="assets/frito.jpg"/></div>
+                          <br>
+            
+                    </div>  
+              </div>
+            </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*.nav_wrap{
+    background:#5784b0;
+  background-image: linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+    width:100%;
+    font-family: "Futura", sans-serif;  
+    font-weight: bold;
+    position:fixed;
+    z-index:1003;
+    padding:0px 0px 0px 0px;
+    height: 70px;
+}
+.nav_wrap a { 
+    color: #fff; 
+    text-decoration: none; 
+    font-size:20px;
+    margin:20px 40px;
+    
+}
+.nav{
+    position:relative;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    
+}
+.nav_text{
+    position: relative;
+    width:800px;
+    margin-top: 19px;
+}
+.nav input{
+    position:relative;
+  padding:10px;
+  cursor:pointer;
+  font-family: "Futura", sans-serif;  
+  color:#5784b0;
+  background-image: linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
+  font-size: 18px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+  border-radius: 15px;
+    -moz-box-shadow:0px 0px 15px #444444;
+    -webkit-box-shadow:0px 0px 15px #444444;
+  height: 70px;
+}
+.nav a:hover
+{
+color: black;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+.backdrop
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:500%;
+    height:500%;
+    background:#000;
+    opacity: .0;
+    filter:alpha(opacity=0);
+    z-index:999;
+    display:none;
+}
+.box
+{
+    position:absolute;
+    top: 220%;
+    left:20%;
+    /*height:500px;
+    overflow-y:scroll;*/
+    background:#000;
+    z-index:1003;
+    padding:10px;
+    border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+    box-shadow:0px 0px 5px #444444;
+        -moz-box-shadow:0px 0px 5px #444444;
+        -webkit-box-shadow:0px 0px 5px #444444;
+    display:none;
+}
+.close
+{
+    float:right;
+    margin-right:6px;
+    cursor:pointer;
+}
+#box_content{
+  display:none;
+}
+.mer{
+    color:purple;
+}
+
+
+
+
+
+
+
+
+
+
+

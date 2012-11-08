@@ -2,31 +2,15 @@
     	
 
 
-
-
-  <!-- NAVIGATION -->   				
-    <!-- <div class="nav_wrap"> -->
-      <!-- <div class="nav">
-        <input type="button" id="btnScrollToTop" value="HOME" onclick="ScrollToTop()" /> 
-        <input type="button" id="btnScrollPositionB" value="ABOUT" onclick="ScrollToPositionB()" />
-        <input type="button" id="btnScrollPositionA" value="PORTFOLIO" onclick="ScrollToPositionA()" />
-        <input type="button" id="btnScrollPositionC" value="CONTACT" onclick="ScrollToPositionC()" />
-        <div class="nav_text">
-        <a href="#button" id="btnScrollToTop" value="HOME" onclick="ScrollToTop()" >HOME</a>
-        <a href="#button" id="btnScrollPositionB" value="ABOUT" onclick="ScrollToPositionB()" >ABOUT</a>
-        <a href="#button" id="btnScrollPositionA" value="PORTFOLIO" onclick="ScrollToPositionA()" >PORTFOLIO</a>
-        <a href="#button" id="btnScrollPositionC" onclick="ScrollToPositionC()">CONTACT</a>
-        </div>
-      </div> -->
-      <nav>
-        <ul>
-          <li><a href="#button" id="btnScrollToTop" value="HOME" onclick="ScrollToTop()" >HOME</a></li>
-          <li><a href="#button" id="btnScrollPositionB" value="ABOUT" onclick="ScrollToPositionB()" >ABOUT</a></li>
-          <li><a href="#button" id="btnScrollPositionA" value="PORTFOLIO" onclick="ScrollToPositionA()" >PORTFOLIO</a></li>
-          <li><a href="#button" id="btnScrollPositionC" onclick="ScrollToPositionC()">CONTACT</a></li>
-        </ul>
-      </nav>
-    <!-- </div> -->
+    <nav>
+      <ul>
+        <li><a href="#button" id="btnScrollToTop" value="HOME" onclick="ScrollToTop()" >HOME</a></li>
+        <li><a href="#button" id="btnScrollPositionB" value="ABOUT" onclick="ScrollToPositionB()" >ABOUT</a></li>
+        <li><a href="#button" id="btnScrollPositionA" value="PORTFOLIO" onclick="ScrollToPositionA()" >PORTFOLIO</a></li>
+        <li><a href="#button" id="btnScrollPositionC" onclick="ScrollToPositionC()">CONTACT</a></li>
+      </ul>
+    </nav>
+    
     
 
 
@@ -37,10 +21,8 @@
   	  <span id="liner">"gimmie some sugar
         <span class="wet_paint"><img src="assets/wet_paint.png" /></span><br>
       </span>
-  	  
       <!-- <canvas id="myCanvas" width="1000" height="500"> </canvas> -->
   	  <span class="right"><img src="assets/html5.png"/><span>the web is my canvas"</span></span>
-
   	</div>
 		 	
 
@@ -52,20 +34,21 @@
 		<div id="about">
 		   <a name="about"></a>
 
-		  <h1>ABOUT ME</h1><span class="sub"> watch out, time for me to brag..</span>
+		  <h1>ABOUT ME</h1>
+      <span class="sub"> watch out, time for me to brag..</span>
 		  
 		  <p>Hello, my name is Paolo Cosentino I'm a Web & Graphic Designer based in Chicago, Il. I also have major skills in motion graphics, and print design. If you have a project or creative need that I can help with, get ahold of me!
 		  </p>
 		  
-<div class="pic">
-      <img src="assets/me.jpg" />
+      <div class="pic">
+        <img src="assets/me.jpg" />
       </div>
 
 
-		  <p id="p1">I'm obsessed with making things and even more obsessed with making things better. I've been in the business of creating since I hung my first painting on the fridge when I was 3. After graduating from Dominican University, I've been actively involved in the web design community for the last 2 years. I currently work for a web and print design company called TUKAIZ based out of Franklin Park.
-<br><br>
+		  <p class="para1">I'm obsessed with making things and even more obsessed with making things better. I've been in the business of creating since I hung my first painting on the fridge when I was 3. After graduating from Dominican University, I've been actively involved in the web design community for the last 2 years. I currently work for a web and print design company called TUKAIZ based out of Franklin Park.
+      <br><br>
       My specialty is front-end web design and development, making pixel magic in photoshop and turning it into beautiful, semantic HTML & CSS. My interests, however, extend beyond the web and I love helping people with print, web and marketing strategy. I even love making designs move by creating professional motion graphics and video.
-<br><br>
+      <br><br>
       When I'm not designing, you can find me on the golf course or going out for a nice brisk jog.
       </p>
 		  
@@ -91,138 +74,14 @@
 				
 
 
- <!-- LIGHTBOX -->
-    <div class="backdrop"></div>
-    <div class="box">
-      <div class="close"><img src="assets/close.png"/></div>
-      <div id="content">Light Box Text</div>
-    </div>
+ 
 
 <!-- PORTFOLIO PAGE -->  				
 <div id="portfolio">
-  
    <a name="portfolio"></a>	
   <h1>PORTFOLIO</h1>	
   <span class="sub">hey mac, you wanna buy a sundial?</span>
-
-		<!-- Carousel -->
- <div class="my_carousel">
-			<!-- Carousel Containter -->
-  <div class="carousel_container">
-					
-      		<div id="carousel"></div>
-        		<img class="nextItem" src="assets/arrow_left.png"/>
-        		<img class="prevItem" src="assets/arrow_right.png"/>
-        	</div>
-	
-      		<!-- Caption Container -->
-      		<div class="caption_container">
-      			<div id="captions"></div>
-      		</div>
-		
-
-          <div class="carousel_data">
-          				<!-- begin items -->
-          				<!-- Item -->
-            <div class="carousel_item">
-          		  <div class="image"><img src="assets/touch_preview.jpg"/></div>
-          			<div class="caption">
-          				<h2>Buzz</h2>
-				
-          				  <p>this is buzz lightyear</p>
-          				  <a href="#" class="lightbox"> CHECK ME OUT</a>
-          				  <div id="box_content"><img src="assets/touch_purl.jpg"/></div>
-          				  <br>
-				
-          			</div>	
-          	</div>
-          </div>
-				
-			
-				
-          <div class="carousel_data">
-          				<!-- begin items -->
-          				<!-- Item -->
-            <div class="carousel_item">
-          		<div class="image"><img src="assets/asa_preview.jpg"/></div>
-          			<div class="caption">
-          				<h2>Woody</h2>
-				
-          				  <p>this is Sheriff Woody</p> 
-          				  <a href="#" class="lightbox"> CHECK ME OUT</a>
-          				  <div id="box_content"><img src="assets/asa_purl.jpg"/></div>
-          				  <br>
-			
-          			</div>	
-          	</div>
-          </div>
-
-
-          <div class="carousel_data">
-          				<!-- begin items -->
-          				<!-- Item -->
-            <div class="carousel_item">
-          		<div class="image"><img src="assets/thumb_image3.jpg"/></div>
-          			<div class="caption">
-          				<h2>Jesse</h2>
-				
-          				  <p>this is Jesse</p> 
-          				  <a href="#" class="lightbox"> CHECK ME OUT</a>
-          				  <div id="box_content"><img src="assets/image3.jpg"/></div>
-          				  <br>
-			
-          			</div>	
-          	</div>
-          </div>
-
-
-          <div class="carousel_data">
-          				<!-- begin items -->
-          				<!-- Item -->
-            <div class="carousel_item">
-          		<div class="image"><img src="assets/thumb_image4.jpg"/></div>
-          			<div class="caption">
-          				<h2>Rex</h2>
-				
-          				  <p>this is Rex</p> 
-          				  <a href="#" class="lightbox"> CHECK ME OUT</a>
-          				  <div id="box_content"><img src="assets/image4.jpg"/></div>
-          				  <br>
-			
-          			</div>	
-          	</div>
-          </div>
-
-
-          <div class="carousel_data">
-          				<!-- begin items -->
-          				<!-- Item -->javascript:void(0)
-            <div class="carousel_item">
-          		<div class="image"><img src="assets/frito_preview.jpg" width="200px" height="200px"/></div>
-          			<div class="caption">
-          				<h2>Frito Reskin</h2>
-				
-          				  <p>The Frito Reskin Project involved a precoded website and laying on a completely different look (and feel)</p> 
-          				  <a href="#" class="lightbox">lets take a look, shall we?</a>
-          				  <div id="box_content"><img src="assets/frito.jpg"/></div>
-          				  <br>
-			
-          			</div>	
-          	  </div>
-            </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-<!--FAKE PORTFOLIO -->
-<div id="fake_portfolio">
-  <h1>fake portfolio</h1>
-    <div id="work">
+<div id="work">
       
       <span class="cat">
         <a href="assets/asa.jpg" rel="lightbox[group]"><span id="fade"><img src="assets/asa_thumb.jpg" /></span></a>
@@ -245,7 +104,6 @@
         <a href="assets/touch1.jpg" rel="lightbox[group4]"><span id="fade"><img src="assets/touch_thumb.jpg" /></span></a>
         <a href="assets/touch2.jpg" rel="lightbox[group4]"></a>
       </span>
-
     </div>
 </div>
 
@@ -255,33 +113,16 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- CONTACT PAGE -->  
 	<div id="contact">
-	
     <!-- http://railscasts.com/episodes/263-client-side-validations -->
 	  <a name="contact"></a>
 
-	  <h1>CONTACT</h1><span class="sub"> don't be shy, drop by and say HI!</span>
+	  <h1>CONTACT</h1>
+    <span class="sub"> don't be shy, drop by to say hi</span>
       <p id="contact_blurb">
         I'm currently available for freelance projects. If you're interested in working with me, please get in touch using one of the methods below. Or feel free to just say hi. I like that too.
      </p>
-
 
     <%= form_tag url_for(:action => 'send_email'), :remote => true do %>
       <div id="tag1">First Name:</div>
@@ -292,11 +133,8 @@
       <%= text_field_tag :email_address, '', :name => "user[email_address]", :size => "41" %><br>
       <div id="tag1">How can I help you?</div>
       <%= text_area_tag :notes, '', :name => "user[notes]", :size => "30x10" %><br>
-
       <%= submit_tag "Submit", :id => "submit_form_button" %>
     <% end %>
-
-
 
 	</div>
 

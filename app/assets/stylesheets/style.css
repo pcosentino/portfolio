@@ -1,7 +1,7 @@
 
 
 body{
-	background:url(../assets/wood.jpeg);
+	background:white;
 	margin:0px;
 }
 p { 
@@ -39,64 +39,82 @@ a {
 
 
 
+
+
+
+
+
+
 /***************NAVAGATION STYLING***************/
-/*.nav_wrap{
+* {
+	padding: 0;
+	margin: 0;
+	
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+nav {
+	width: 100%;
+	margin: 0px auto;
+	overflow: hidden;
+	position: fixed;
+	z-index: 1003;	
+}
+
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+nav li a {
 	background:#5784b0;
   background-image: linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
 	background-image: -o-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
 	background-image: -moz-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
 	background-image: -webkit-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
 	background-image: -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
-	width:100%;
-	font-family: "Futura", sans-serif;  
-	font-weight: bold;
-	position:fixed;
-	z-index:1003;
-	padding:0px 0px 0px 0px;
-	height: 70px;
-}
-.nav_wrap a { 
-	color: #fff; 
-	text-decoration: none; 
-	font-size:20px;
-	margin:20px 40px;
-	
-}
-.nav{
-	position:relative;
+	border-right: 2px solid #fff;
+	color: #fff;
+	display: block;
+	float: left;
+	font: 400 20px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+	padding: 10px;
 	text-align: center;
-	width: 800px;
-	margin: 0 auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 25%;
+	height:20%; 
+
 	
+	/*TRANSISTIONS*/
+	-webkit-transition: background 0.5s ease;
+	   -moz-transition: background 0.5s ease;
+	     -o-transition: background 0.5s ease;
+	    -ms-transition: background 0.5s ease;
+	        transition: background 0.5s ease;
 }
-.nav_text{
-	position: relative;
-	width:800px;
-	margin-top: 19px;
+
+/*HOVER*/
+nav li a:hover {
+	background: #222;
 }
-.nav input{
-	position:relative;
-  padding:10px;
-  cursor:pointer;
-  font-family: "Futura", sans-serif;  
-  color:#5784b0;
-  background-image: linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
-	background-image: -o-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
-	background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
-	background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
-	background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
-  font-size: 18px;
-    -webkit-border-radius: 15px;
-  	-moz-border-radius: 15px;
-  border-radius: 15px;
-  	-moz-box-shadow:0px 0px 15px #444444;
-  	-webkit-box-shadow:0px 0px 15px #444444;
-  height: 70px;
+
+/*SMALL*/
+nav small {
+	font: 100 11px/1 Helvetica, Verdana, Arial, sans-serif;
+	text-transform: none;
+	color: #aaa;
 }
-.nav a:hover
-{
-color: black;
-}*/
+
+/*BORDER FIX*/
+nav li:last-child a {
+	border: none;
+}
+
+
+
 
 
 
@@ -133,6 +151,12 @@ color: black;
 
 
 
+
+
+
+
+
+
 /***************ALL ABOUT ME PAGE STYLING***************/
 #about{
 	position: relative; 
@@ -145,7 +169,7 @@ color: black;
 	background:#efe6d6;
 	border:solid #EFE6D6 1px;
 }
-#p1{
+.para1{
 	display: inline-block;
   margin: 20px 30px 0px 360px;
   
@@ -177,7 +201,7 @@ color: black;
   background:url("../assets/close.png") no-repeat;
   margin-right:60px;
   padding-left:35px;
-  padding-top:10px;
+  padding-top:5px;
   font-size: .7em;
 }
 .col2{
@@ -188,6 +212,9 @@ color: black;
   margin-top: -120px;
 	margin-right: -20px;*/
 }
+
+
+
 
 
 
@@ -305,7 +332,7 @@ margin: auto;
 	border:solid #EFE6D6 1px;
 }	
 #work{
-	margin: 60px 30px 30px 100px;
+	margin: 0px 30px 30px 70px;
 	padding: 20px 0 0 20px;
 }
 .cat{
@@ -409,100 +436,14 @@ form{
 
 
 
+
+
+
+
+
+
+
 /***************LIGHT BOX STYLING***************/
-.backdrop
-{
-	position:absolute;
-	top:0px;
-	left:0px;
-	width:500%;
-	height:500%;
-	background:#000;
-	opacity: .0;
-	filter:alpha(opacity=0);
-	z-index:999;
-	display:none;
-}
-.box
-{
-	position:absolute;
-	top: 220%;
-	left:20%;
-	/*height:500px;
-	overflow-y:scroll;*/
-	background:#000;
-	z-index:1003;
-	padding:10px;
-	border-radius: 5px;
-		-webkit-border-radius: 5px;
-		-moz-border-radius: 5px;
-	box-shadow:0px 0px 5px #444444;
-		-moz-box-shadow:0px 0px 5px #444444;
-		-webkit-box-shadow:0px 0px 5px #444444;
-	display:none;
-}
-.close
-{
-	float:right;
-	margin-right:6px;
-	cursor:pointer;
-}
-#box_content{
-  display:none;
-}
-.mer{
-	color:purple;
-}
-
-
-
-
-
-@media screen and (max-width: 700px) {
-	h1{
-		color:red;
-		
-	}
-}
-
-
-@media screen and (max-width: 320px) {
-	h1{
-		color:green;
-		
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* line 6, ../sass/lightbox.sass */
 #lightboxOverlay {
   position: absolute;
   top: 0;
@@ -513,8 +454,6 @@ form{
   opacity: 0.85;
   display: none;
 }
-
-/* line 15, ../sass/lightbox.sass */
 #lightbox {
   position: absolute;
   left: 0;
@@ -525,17 +464,13 @@ form{
   font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
   font-weight: normal;
 }
-/* line 24, ../sass/lightbox.sass */
 #lightbox img {
   width: auto;
   height: auto;
 }
-/* line 27, ../sass/lightbox.sass */
 #lightbox a img {
   border: none;
 }
-
-/* line 30, ../sass/lightbox.sass */
 .lb-outerContainer {
   position: relative;
   background-color: white;
@@ -549,19 +484,14 @@ form{
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 38, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .lb-outerContainer:after {
   content: "";
   display: table;
   clear: both;
 }
-
-/* line 39, ../sass/lightbox.sass */
 .lb-container {
   padding: 10px;
 }
-
-/* line 42, ../sass/lightbox.sass */
 .lb-loader {
   position: absolute;
   top: 40%;
@@ -571,8 +501,6 @@ form{
   text-align: center;
   line-height: 0;
 }
-
-/* line 51, ../sass/lightbox.sass */
 .lb-nav {
   position: absolute;
   top: 0;
@@ -581,18 +509,12 @@ form{
   width: 100%;
   z-index: 10;
 }
-
-/* line 59, ../sass/lightbox.sass */
 .lb-container > .nav {
   left: 0;
 }
-
-/* line 62, ../sass/lightbox.sass */
 .lb-nav a {
   outline: none;
 }
-
-/* line 65, ../sass/lightbox.sass */
 .lb-prev, .lb-next {
   width: 49%;
   height: 100%;
@@ -600,30 +522,20 @@ form{
   /* Trick IE into showing hover */
   display: block;
 }
-
-/* line 72, ../sass/lightbox.sass */
 .lb-prev {
   left: 0;
   float: left;
 }
-
-/* line 76, ../sass/lightbox.sass */
 .lb-next {
   right: 0;
   float: right;
 }
-
-/* line 81, ../sass/lightbox.sass */
 .lb-prev:hover {
   background: url(../assets/prev.png) left 48% no-repeat;
 }
-
-/* line 85, ../sass/lightbox.sass */
 .lb-next:hover {
   background: url(../assets/next.png) right 48% no-repeat;
 }
-
-/* line 88, ../sass/lightbox.sass */
 .lb-dataContainer {
   margin: 0 auto;
   padding-top: 5px;
@@ -640,46 +552,38 @@ form{
   -o-border-bottom-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-/* line 38, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .lb-dataContainer:after {
   content: "";
   display: table;
   clear: both;
 }
-
-/* line 95, ../sass/lightbox.sass */
 .lb-data {
   padding: 0 10px;
   color: #bbbbbb;
 }
-/* line 98, ../sass/lightbox.sass */
 .lb-data .lb-details {
   width: 85%;
   float: left;
   text-align: left;
   line-height: 1.1em;
 }
-/* line 103, ../sass/lightbox.sass */
 .lb-data .lb-caption {
   font-size: 13px;
   font-weight: bold;
   line-height: 1em;
 }
-/* line 107, ../sass/lightbox.sass */
 .lb-data .lb-number {
   display: block;
   clear: left;
   padding-bottom: 1em;
   font-size: 11px;
 }
-/* line 112, ../sass/lightbox.sass */
 .lb-data .lb-close {
   width: 35px;
   float: right;
   padding-bottom: 0.7em;
   outline: none;
 }
-/* line 117, ../sass/lightbox.sass */
 .lb-data .lb-close:hover {
   cursor: pointer;
 }
@@ -693,138 +597,37 @@ form{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* {
-	padding: 0;
-	margin: 0;
+@media screen and (max-width: 500px) {
+	h1{
+		color:red;
+		font-size: .7em;
+	}
 	
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
+
 }
-
-nav {
-	width: 100%;
-	margin: 0px auto;
-	overflow: hidden;
-	position: fixed;
-	z-index: 1003;	
-}
-
-nav ul {
-	list-style: none;
-	overflow: hidden;
-}
-
-nav li a {
-	background:#5784b0;
-  background-image: linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
-	background-image: -o-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
-	background-image: -moz-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
-	background-image: -webkit-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
-	background-image: -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
-	border-right: 2px solid #fff;
-	color: #fff;
-	display: block;
-	float: left;
-	font: 400 20px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
-	padding: 10px;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	width: 25%;
-	height:20%; 
-
+@media screen and (max-width: 603px) {
 	
-	/*TRANSISTIONS*/
-	-webkit-transition: background 0.5s ease;
-	   -moz-transition: background 0.5s ease;
-	     -o-transition: background 0.5s ease;
-	    -ms-transition: background 0.5s ease;
-	        transition: background 0.5s ease;
+	.sub { 
+	margin-left:93px;
+	font-size: .3em; 
+	}	
+	.pic{
+   position: relative;
+  }
+	.para1{
+		margin: 20px 30px 0px 30px;
+	}
+}
+@media screen and (max-width: 1064px) {
+	#skills{
+		margin-left: 30px;
+		margin-top: 6%;
+	}
 }
 
-/*HOVER*/
-nav li a:hover {
-	background: #222;
-}
 
-/*SMALL*/
-nav small {
-	font: 100 11px/1 Helvetica, Verdana, Arial, sans-serif;
-	text-transform: none;
-	color: #aaa;
-}
 
-/*BORDER FIX*/
-nav li:last-child a {
-	border: none;
-}
 
-/*BLUE MENU*/
-nav .blue {
-	margin-top: 50px;
-}
-
-.blue li a {
-	background: #75b1de;
-}
-
-.blue small {
-	color: white;
-}
-
-.blue li a:hover {
-	background: #444;
-}
-
-/*RED MENU*/
-
-nav .red {
-	margin-top: 50px;
-}
-
-.red li a {
-	background: #5C0002;
-}
-
-.red small {
-	color: white;
-}
-
-.red li a:hover {
-	background: #a60306;
-}
 
 /* MEDIA QUERIES*/
 @media only screen and (max-width : 1220px),
@@ -868,7 +671,9 @@ only screen and (max-device-width : 580px){
 	nav li:nth-child(5) a, nav li:nth-child(6) a, nav li:nth-child(7) a, nav li:nth-child(8) a {
 		border-bottom: none;
 	}
+		
 }
+
 
 
 
