@@ -126,7 +126,7 @@ color: black;
 }
 .wet_paint{
 	position: absolute;
-  margin-left: 350px;
+  margin-left: 200px;
   margin-top:10px;
 }
 
@@ -177,7 +177,7 @@ color: black;
   background:url("../assets/close.png") no-repeat;
   margin-right:60px;
   padding-left:35px;
-  padding-top:5px;
+  padding-top:10px;
   font-size: .7em;
 }
 .col2{
