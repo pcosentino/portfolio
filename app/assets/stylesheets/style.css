@@ -49,12 +49,10 @@ a {
 * {
 	padding: 0;
 	margin: 0;
-	
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 }
-
 nav {
 	width: 100%;
 	margin: 0px auto;
@@ -62,12 +60,10 @@ nav {
 	position: fixed;
 	z-index: 1003;	
 }
-
 nav ul {
 	list-style: none;
 	overflow: hidden;
 }
-
 nav li a {
 	background:#5784b0;
   background-image: linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
@@ -85,9 +81,7 @@ nav li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	width: 25%;
-	height:20%; 
-
-	
+	height:20%; 	
 	/*TRANSISTIONS*/
 	-webkit-transition: background 0.5s ease;
 	   -moz-transition: background 0.5s ease;
@@ -95,19 +89,16 @@ nav li a {
 	    -ms-transition: background 0.5s ease;
 	        transition: background 0.5s ease;
 }
-
 /*HOVER*/
 nav li a:hover {
 	background: #222;
 }
-
 /*SMALL*/
 nav small {
 	font: 100 11px/1 Helvetica, Verdana, Arial, sans-serif;
 	text-transform: none;
 	color: #aaa;
 }
-
 /*BORDER FIX*/
 nav li:last-child a {
 	border: none;
@@ -172,7 +163,6 @@ nav li:last-child a {
 .para1{
 	display: inline-block;
   margin: 20px 30px 0px 360px;
-  
 }
 .pic{
   display: inline-block;
@@ -191,7 +181,6 @@ nav li:last-child a {
   margin-left: 355px;
   margin-top: 50px;
   margin-bottom: 30px;
-  
 }
 .col1{
   color:#666;
@@ -207,11 +196,8 @@ nav li:last-child a {
 .col2{
 	display: inline-block;
   color: #666;
-  /*position: relative;
-  float: right;
-  margin-top: -120px;
-	margin-right: -20px;*/
 }
+
 
 
 
@@ -237,8 +223,8 @@ nav li:last-child a {
 }	
 .my_carousel { 
 	position: relative;
-width: 100%;
-margin: auto; 
+	width: 100%;
+	margin: auto; 
 }
 #caption { 
 	width: 260px; 
@@ -355,6 +341,7 @@ margin: auto;
 
 
 
+
 /***************CONTACT PAGE STYLING***************/
 #contact{
 	position: relative; 
@@ -380,15 +367,15 @@ margin: auto;
 }
 #tag1{
 	color: #666;
-font-size: 16px;
-margin-left: 5px;
-height: 0px;
+	font-size: 16px;
+	margin-left: 5px;
+	height: 0px;
 }
 label{
-color: #666;
-font-size: 16px;
-padding-top: 45px;
-padding-left: 15px;
+	color: #666;
+	font-size: 16px;
+	padding-top: 45px;
+	padding-left: 15px;
 }
 form{
 	position: relative;
@@ -396,13 +383,13 @@ form{
   margin: 0 20%;
 }
 .first_name_label{
- margin-left: 68px;
+	margin-left: 68px;
 }
 .last_name_label{
- margin-left: 69px;
+	margin-left: 69px;
 }
 .email_address_label{
- margin-left: 42px;
+	margin-left: 42px;
 }
 #submit_form_button{
 	position: relative;
@@ -433,6 +420,7 @@ form{
 	margin-bottom: -30px;
 	margin-top: 51px;
 }
+
 
 
 
@@ -602,11 +590,8 @@ form{
 		color:red;
 		font-size: .7em;
 	}
-	
-
 }
 @media screen and (max-width: 603px) {
-	
 	.sub { 
 	margin-left:93px;
 	font-size: .3em; 
@@ -629,29 +614,25 @@ form{
 
 
 
-/* MEDIA QUERIES*/
+/* NAVIGATION MEDIA QUERIES*/
 @media only screen and (max-width : 1220px),
 only screen and (max-device-width : 1220px){
 	nav li a {
 		font: 400 20px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
 	}
-	
 	nav small {
 		font: 100 10px/1 Helvetica, Verdana, Arial, sans-serif;
 	}
 }
-
 @media only screen and (max-width : 1008px),
 only screen and (max-device-width : 1008px){
 	nav li a {
 		width: 25%;
 		font: 400 18px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
-	}
-	
+	}	
 	nav li:last-child a, nav li:nth-child(4) a {
 		border-right: none;
 	}
-	
 	nav li:nth-child(5) a, nav li:nth-child(6) a, nav li:nth-child(7) a, nav li:nth-child(8) a {
 		border-bottom: none;
 	}
@@ -663,20 +644,13 @@ only screen and (max-device-width : 580px){
 		width: 25%;
 		font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
 	}
-	
 	nav li:last-child a, nav li:nth-child(4) a {
 		border-right: none;
 	}
-	
 	nav li:nth-child(5) a, nav li:nth-child(6) a, nav li:nth-child(7) a, nav li:nth-child(8) a {
 		border-bottom: none;
-	}
-		
+	}	
 }
-
-
-
-
 @media only screen and (max-width : 320px),
 only screen and (max-device-width : 320px){
 	nav li a {
