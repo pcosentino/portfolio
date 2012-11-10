@@ -1,7 +1,7 @@
 
 
 body{
-	background:white;
+	background:url(../assets/blue.jpg);
 	margin:0px;
 }
 p { 
@@ -357,6 +357,7 @@ nav li:last-child a {
 	color:#666;
 	margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 3%;
 }
 #tag{
 	color: #666;
