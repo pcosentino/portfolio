@@ -5,7 +5,7 @@ class UserMailer < ActionMailer::Base
   	@name = user_info[:name]
     @email = user_info[:email]
     @description = user_info[:description]
-    mail(:to => "frank.bruno88@gmail.com", :subject => "Welcome to My Awesome Site")
+    mail(:to => "frank.bruno88@gmail.com", :subject => "Portfolio Notification")
   end
 
 end
