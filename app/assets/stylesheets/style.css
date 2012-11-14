@@ -232,7 +232,10 @@ nav li:last-child a {
 	padding: 20px 0 0 20px;
 }
 .cat{
-	padding-left:10px;
+	margin-right: 15px;
+	box-shadow: 10px 10px 5px #888;
+	display: inline-block;
+	height: 124px;
 }
 #fade{
   opacity: .7;
@@ -280,6 +283,7 @@ nav li:last-child a {
 	color: #666;
 	font-size: 16px;
 	margin-left: 5px;
+	margin-bottom: -20px;
 	height: 0px;
 }
 label{
@@ -327,7 +331,6 @@ form{
 }
 #notes{
 	resize:none;
-	margin-left:4px;
 	margin-bottom: -30px;
 	margin-top: 51px;
 }
