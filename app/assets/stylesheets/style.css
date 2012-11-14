@@ -16,7 +16,7 @@ h1{
 	font-family: "Arial", sans-serif;  
 	font-size: 1em; 
 	margin: 65px 0 -40px 100px;
-	/*background: -webkit-gradient(linear, left top, left bottom, from(#5784B0), to(#3c5e7f));*/
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#5784B0), to(#004269));*/
 	  /*-webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
 	  -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);*/
@@ -24,7 +24,7 @@ h1{
 	border-bottom: 1px dotted #b08357;
 }
 .sub { 
-	color: #3c5e7f;
+	color: #004269;
 	margin-left:200px;
 	font-size: .4em; 
 	font-family: "Futura", sans-serif;  
@@ -82,7 +82,7 @@ nav li a {
 	color: #fff;
 	display: block;
 	float: left;
-	font: 400 20px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+	font: 400 20px/1.4 "Century Gothic", Helvetica, Verdana, Arial, sans-serif;
 	padding: 10px;
 	text-align: center;
 	text-decoration: none;
@@ -130,7 +130,7 @@ nav li:last-child a {
 	padding:60px 0px 0 0;
 	margin:0px auto;
 	font-size: 60px; 
-	font-family: "Futura", sans-serif;  
+	font-family: "Century Gothic", sans-serif;  
 	/*border:solid 1px #EFE6D6;*/
 }
 #myCanvas {
@@ -139,11 +139,12 @@ nav li:last-child a {
 }
 #logo{
 	display: inline-block;
-	margin:0px 0 0 0;
+	margin: 20px 0 0 5%;
 }
 .wet_paint{
 	position: absolute;
 }
+
 
 
 
@@ -182,7 +183,7 @@ nav li:last-child a {
 	-o-transform:rotate(-7deg); /* Opera */
 }	
 #skills{
-	color:#3c5e7f;
+	color:#004269;
   font-size: 0.4em;
   margin-left: 355px;
   margin-top: 50px;
@@ -535,7 +536,7 @@ form{
 @media only screen and (max-width : 1220px),
 only screen and (max-device-width : 1220px){
 	nav li a {
-		font: 400 20px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+		font: 400 20px/1.4 'Century Gothic', Helvetica, Verdana, Arial, sans-serif;
 	}
 	nav small {
 		font: 100 10px/1 Helvetica, Verdana, Arial, sans-serif;
@@ -545,7 +546,7 @@ only screen and (max-device-width : 1220px){
 only screen and (max-device-width : 1008px){
 	nav li a {
 		width: 25%;
-		font: 400 18px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+		font: 400 18px/1.4 'Century Gothic', Helvetica, Verdana, Arial, sans-serif;
 	}	
 	nav li:last-child a, nav li:nth-child(4) a {
 		border-right: none;
@@ -559,7 +560,7 @@ only screen and (max-device-width : 1008px){
 only screen and (max-device-width : 580px){
 	nav li a {
 		width: 25%;
-		font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+		font: 400 11px/1.4 'Century Gothic', Helvetica, Verdana, Arial, sans-serif;
 	}
 	nav li:last-child a, nav li:nth-child(4) a {
 		border-right: none;
@@ -571,7 +572,7 @@ only screen and (max-device-width : 580px){
 @media only screen and (max-width : 320px),
 only screen and (max-device-width : 320px){
 	nav li a {
-		font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+		font: 400 11px/1.4 'Century Gothic', Helvetica, Verdana, Arial, sans-serif;
 	}
 }
 
