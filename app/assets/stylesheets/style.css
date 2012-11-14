@@ -172,7 +172,7 @@ nav li:last-child a {
 }
 .pic{
   display: inline-block;
-  margin: 5% 100px;
+  margin: 10% 75px 5% 75px;
   position: absolute;
   -moz-transform: rotate(-7deg);  
 	transform:rotate(-7deg);
@@ -232,10 +232,10 @@ nav li:last-child a {
 	padding: 20px 0 0 20px;
 }
 .cat{
+	height: 123px;
 	margin-right: 15px;
 	box-shadow: 10px 10px 5px #888;
 	display: inline-block;
-	height: 124px;
 }
 #fade{
   opacity: .7;
@@ -501,7 +501,7 @@ form{
 
 @media screen and (max-width: 500px) {
 	h1{
-		color:red;
+		/*color:red;*/
 		font-size: .7em;
 	}
 }
@@ -516,11 +516,14 @@ form{
 	.para1{
 		margin: 20px 30px 0px 30px;
 	}
+	.cat{
+		margin: 0 15%;
+	}
 }
 @media screen and (max-width: 1064px) {
 	#skills{
 		margin-left: 30px;
-		margin-top: 6%;
+		margin-top: 15%;
 	}
 }
 
