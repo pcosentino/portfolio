@@ -196,11 +196,11 @@ nav li:last-child a {
   display: inline-block;
 }
 #column_item{
-  background:url("../assets/close.png") no-repeat;
-  margin-right:60px;
-  padding-left:35px;
-  padding-top:5px;
-  font-size: .7em;
+  background: url("../assets/point.png") no-repeat;
+	margin-right: 40px;
+	padding-left: 30px;
+	margin-top: 5px;
+	font-size: .7em;
 }
 .col2{
 	display: inline-block;
