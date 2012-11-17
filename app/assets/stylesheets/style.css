@@ -195,9 +195,9 @@ nav li:last-child a {
 }
 #column_item{
   background:url("../assets/point.png") no-repeat;
-  margin-right:60px;
-  padding-left:35px;
-  padding-top:5px;
+  margin-right: 40px;
+padding-left: 25px;
+  margin-top:5px;
   font-size: .7em;
 }
 .col2{
