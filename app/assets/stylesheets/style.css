@@ -217,6 +217,8 @@ nav li:last-child a {
   margin: 20px 30px 0px 360px;
 }
 .pic{
+	box-shadow: 10px 10px 5px #888;
+	height: 284px;
   display: inline-block;
   margin: 10% 75px 5% 75px;
   position: absolute;
@@ -239,11 +241,11 @@ nav li:last-child a {
   display: inline-block;
 }
 #column_item{
-  background:url("../assets/close.png") no-repeat;
-  margin-right:60px;
-  padding-left:35px;
-  padding-top:5px;
-  font-size: .7em;
+  background: url("../assets/point.png") no-repeat;
+	margin-right: 40px;
+	padding-left: 30px;
+	margin-top: 5px;
+	font-size: .7em;
 }
 .col2{
 	display: inline-block;
