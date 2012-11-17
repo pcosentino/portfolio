@@ -194,7 +194,7 @@ nav li:last-child a {
   display: inline-block;
 }
 #column_item{
-  background:url("../assets/close.png") no-repeat;
+  background:url("../assets/point.png") no-repeat;
   margin-right:60px;
   padding-left:35px;
   padding-top:5px;
