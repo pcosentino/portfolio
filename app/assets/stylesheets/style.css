@@ -203,7 +203,7 @@ nav li:last-child a {
 #column_item{
   background:url("../assets/point.png") no-repeat;
   margin-right: 40px;
-padding-left: 25px;
+	padding-left: 25px;
   margin-top:5px;
   font-size: .7em;
 }
@@ -211,7 +211,10 @@ padding-left: 25px;
 	display: inline-block;
   color: #666;
 }
-
+.col3{
+	display: inline-block;
+  color: #666;
+}
 
 
 
@@ -528,13 +531,12 @@ form{
 		margin: 0 15%;
 	}
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 630px) {
 #logo2{
 	background: url(../assets/logo3.png);
-	width: 400px;
-	height: 108px;
-	display: inline-block;
-	margin: 20px 0 0 0;
+	margin: 65px 0px 0px 22px;
+	width: 156px;
+	height: 703px;
 	}
 }
 @media screen and (max-width: 1064px) {
