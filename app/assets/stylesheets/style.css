@@ -196,7 +196,7 @@ nav li:last-child a {
   margin-top: 50px;
   margin-bottom: 30px;
 }
-.col1{
+.column{
   color:#666;
   display: inline-block;
 }
@@ -207,14 +207,8 @@ nav li:last-child a {
   margin-top:5px;
   font-size: .7em;
 }
-.col2{
-	display: inline-block;
-  color: #666;
-}
-.col3{
-	display: inline-block;
-  color: #666;
-}
+
+
 
 
 
@@ -534,7 +528,7 @@ form{
 @media screen and (max-width: 630px) {
 #logo2{
 	background: url(../assets/logo3.png);
-	margin: 65px 0px 0px 22px;
+	margin: 65px 0px 0px 5px;
 	width: 156px;
 	height: 703px;
 	}
