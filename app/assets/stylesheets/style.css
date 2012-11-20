@@ -328,8 +328,9 @@ label{
 }
 form{
 	position: relative;
-  width: 500px;
-  margin: 0 20%;
+  width: 300px;
+  margin-left:15%;
+  display: inline-block;
 }
 .first_name_label{
 	margin-left: 68px;
@@ -368,7 +369,19 @@ form{
 	margin-bottom: -30px;
 	margin-top: 51px;
 }
-
+#email{
+	color:red;
+	font-size: 18px;
+	position: relative;	
+	display: inline-block;
+	height: 600px;
+}
+#email p{
+	margin:0;
+	
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
 
 
 
