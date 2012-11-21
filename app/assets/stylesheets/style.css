@@ -233,7 +233,7 @@ nav li:last-child a {
 	border:solid #EFE6D6 1px;
 }	
 #work{
-	margin: 50px 30px 50px 75px;
+	margin: 50px 30px 50px 70px;
 padding: 20px 0 0 20px;
 }
 .cat{
@@ -278,6 +278,7 @@ padding: 20px 0 0 20px;
 	top:200px;
 	left:100px;
 	font-size:16px;
+	border-bottom: 1px dotted #b08357;
 }
 
 
@@ -378,7 +379,6 @@ form{
 }
 #email p{
 	margin:0;
-	
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
