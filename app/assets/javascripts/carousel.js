@@ -1,4 +1,7 @@
-
+if (document.getElementById("tag1").value==" ")
+  alert("you forgot something dumbass");
+else
+  form.submit();
 
 
 $(document).ready(function() {

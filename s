@@ -596,3 +596,169 @@ Served asset /touch2.jpg - 200 OK (8ms)
 Started GET "/assets/next.png" for 127.0.0.1 at 2012-11-21 08:56:13 -0600
 Served asset /next.png - 304 Not Modified (41ms)
 [2012-11-21 08:56:13] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery-1.6.min.js?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /jquery-1.6.min.js - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/carousel.js?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /carousel.js - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /jquery-1.7.2.min.js - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery.roundabout.min.js?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /jquery.roundabout.min.js - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery.smooth-scroll.min.js?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /jquery.smooth-scroll.min.js - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/lightbox.js?body=1" for 127.0.0.1 at 2012-11-21 09:06:04 -0600
+Served asset /lightbox.js - 304 Not Modified (0ms)
+[2012-11-21 09:06:04] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/path/to/file/jquery.queryloader2.js" for 127.0.0.1 at 2012-11-21 09:06:05 -0600
+
+ActionController::RoutingError (No route matches [GET] "/path/to/file/jquery.queryloader2.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/pcosentino/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/pcosentino/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/pcosentino/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/pcosentino/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/blue.jpg" for 127.0.0.1 at 2012-11-21 09:06:05 -0600
+Served asset /blue.jpg - 304 Not Modified (0ms)
+[2012-11-21 09:06:05] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2012-11-21 09:06:05 -0600
+Served asset /logo2.png - 304 Not Modified (0ms)
+[2012-11-21 09:06:05] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/asa_thumb.jpg" for 127.0.0.1 at 2012-11-21 09:06:05 -0600
+Served asset /asa_thumb.jpg - 304 Not Modified (0ms)
+[2012-11-21 09:06:05] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/me.jpg" for 127.0.0.1 at 2012-11-21 09:06:05 -0600
+Served asset /me.jpg - 304 Not Modified (0ms)
+[2012-11-21 09:06:05] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/point.png" for 127.0.0.1 at 2012-11-21 09:06:05 -0600
+Served asset /point.png - 304 Not Modified (0ms)
+[2012-11-21 09:06:05] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/tkml_thumb.jpg" for 127.0.0.1 at 2012-11-21 09:06:05 -0600
+Served asset /tkml_thumb.jpg - 304 Not Modified (0ms)
+[2012-11-21 09:06:05] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/touch_thumb.jpg" for 127.0.0.1 at 2012-11-21 09:06:05 -0600
+Served asset /touch_thumb.jpg - 304 Not Modified (0ms)
+[2012-11-21 09:06:05] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/rocky_thumb.jpg" for 127.0.0.1 at 2012-11-21 09:06:05 -0600
+Served asset /rocky_thumb.jpg - 304 Not Modified (0ms)
+[2012-11-21 09:06:05] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2012-11-21 09:06:05 -0600
+Served asset /loading.gif - 304 Not Modified (0ms)
+[2012-11-21 09:06:05] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/frito_thumb.jpg" for 127.0.0.1 at 2012-11-21 09:06:05 -0600
+Served asset /frito_thumb.jpg - 304 Not Modified (0ms)
+[2012-11-21 09:06:05] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/close.png" for 127.0.0.1 at 2012-11-21 09:06:05 -0600
+Served asset /close.png - 304 Not Modified (0ms)
+[2012-11-21 09:06:05] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/favicon2.ico" for 127.0.0.1 at 2012-11-21 09:06:06 -0600
+Served asset /favicon2.ico - 304 Not Modified (0ms)
+[2012-11-21 09:06:06] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/logo3.png" for 127.0.0.1 at 2012-11-21 09:06:12 -0600
+Served asset /logo3.png - 304 Not Modified (14ms)
+[2012-11-21 09:06:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
