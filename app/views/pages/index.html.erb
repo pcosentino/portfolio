@@ -88,33 +88,57 @@
 <div id="work">
 
 
-      
       <span class="cat">
-        <a href="assets/asa.jpg" rel="lightbox[group]"><span id="fade"><img src="assets/asa_thumb.jpg" /></span><span class="description">ASA Purl</span></a>
+        <a href="assets/asa.jpg" rel="lightbox[group]">
+          <span id="fade"><img src="assets/asa_thumb.jpg" /></span>
+          <span class="description">ASA Purl<br>
+            <ul><li>Front-end Development</li></ul></span>
+        </a>
         <a href="assets/asa2.jpg" rel="lightbox[group]"></a>
         <a href="assets/asa3.jpg" rel="lightbox[group]"></a>
-
       </span>
 
+
       <span class="cat">
-        <a href="assets/frito1.jpg" rel="lightbox[group2]"><span id="fade"><img src="assets/frito_thumb.jpg" /><span class="description">Frito reskin</span></span></a>
+        <a href="assets/frito1.jpg" rel="lightbox[group2]">
+          <span id="fade"><img src="assets/frito_thumb.jpg" /></span>
+          <span class="description">Frito reskin<br>
+            <ul><li>Front-end Development</li></ul></span>
+        </a>
         <a href="assets/frito2.jpg" rel="lightbox[group2]"></a>
         <a href="assets/frito3.jpg" rel="lightbox[group2]"></a>
         <a href="assets/frito4.jpg" rel="lightbox[group2]"></a>
       </span>
 
-      <span class="cat">
-        <a href="assets/tkml.jpg" rel="lightbox"><span id="fade"><img src="assets/tkml_thumb.jpg" /><span class="description">tkml Whiteboard</span></span></a>
-      </span>
 
       <span class="cat">
-        <a href="assets/touch1.jpg" rel="lightbox[group4]"><span id="fade"><img src="assets/touch_thumb.jpg" /></span><span class="description">Touch Purl</span></a>
+        <a href="assets/tkml.jpg" rel="lightbox">
+          <span id="fade"><img src="assets/tkml_thumb.jpg" /></span>
+          <span class="description">tkml Whiteboard<br>
+            <ul><li>Web Design</li></ul></span>
+        </a>
+      </span>
+
+
+      <span class="cat">
+        <a href="assets/touch1.jpg" rel="lightbox[group4]">
+          <span id="fade"><img src="assets/touch_thumb.jpg" /></span>
+          <span class="description">Touch Purl<br>
+            <ul><li>Design, Front-end Development</li></ul></span>
+        </a>
         <a href="assets/touch2.jpg" rel="lightbox[group4]"></a>
       </span>
 
+
       <span class="cat">
-        <a href="assets/rocky4.jpg" rel="lightbox"><span id="fade"><img src="assets/rocky_thumb.jpg" /><span class="description">Rocky IV Illustration</span></span></a>
+        <a href="assets/rocky4.jpg" rel="lightbox">
+          <span id="fade"><img src="assets/rocky_thumb.jpg" /></span>
+          <span class="description">Rocky IV Illustration<br>
+            <ul><li>Adobe Illustrator</li></ul></span>
+
+        </a>
       </span>
+   
     </div>
 </div>
 
@@ -126,15 +150,12 @@
 
 <!-- CONTACT PAGE -->  
 	<div id="contact">
-    <!-- http://railscasts.com/episodes/263-client-side-validations -->
 	  <a name="contact"></a>
-
 	  <h1>CONTACT</h1>
     <span class="sub"> don't be shy, drop by to say hi</span>
       <p id="contact_blurb">
         I'm currently available for freelance projects. If you're interested in working with me, please get in touch using one of the methods below. Or feel free to just say hi. I like that too.
      </p>
-
     <%= form_tag url_for(:action => 'send_email'), :remote => true, :id => 'contact_form' do %>
       <div id="tag1">First Name:</div>
       <%= text_field_tag :first_name, '', :name => "user[first_name]", :size => "41" %><br>
@@ -147,7 +168,7 @@
       <%= submit_tag "Submit", :id => "submit_form_button" %>
     <% end %>
 
-<!--     <span id="email">The Old-Fashioned Way
+    <!--<span id="email">The Old-Fashioned Way
       <p>
         If you're not a fan of filling out forms <br>
         and you'd rather email me at <br>
