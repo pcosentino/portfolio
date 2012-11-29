@@ -1,4 +1,12 @@
-
+		.playstation > div {
+			position:absolute;
+		}
+		.front {
+			background:url(../assets/logo2.png) no-repeat;
+			left:10%;	
+			width: 570px;
+			height: 150px;	
+		}
 body{
 	background:url(../assets/blue.jpg);
 	margin:0px;

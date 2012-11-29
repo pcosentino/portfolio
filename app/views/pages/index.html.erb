@@ -16,19 +16,35 @@
 <!-- <div><canvas></canvas></div>  --> 
   
   	<div id="home">
+      <div class="playstation">
+    <div data-pos="front" class="front"><span unselectable="on"></span></div>
+  </div>
     <a name="home"></a> 
   	 <!--  <span id="logo">
         <img src="assets/logo2.png" />
       </span>
       <br> -->
-  <span id="logo2">
-  </span>
+  <!-- <span id="logo2">
+  </span> -->
       <!-- <span class="wet_paint"><img src="assets/wet_paint.png" /></span> --><br>
       <!-- <canvas id="myCanvas" width="1000" height="500"> </canvas> -->
   	  <!-- <img src="assets/html5.png"/> -->
     </div>
 	 	
+  <script language="JavaScript" type="text/javascript">
+  (function() { 
+    var positions = {
+             front: {scale:1, left:"10%", top:"10%"},
+            };
+    var boxes = [$('[data-pos="front"]')];
     
+    //drop things into place (intro)
+    for (var i = 0; i < boxes.length; i++) {
+      TweenLite.from(boxes[i], .3, {css:{opacity:0}, delay:i * 1.1 + 0.25});
+      TweenLite.fromTo(boxes[i], 1, {css:{top:"-50%"}}, {css:positions[boxes[i].attr("data-pos")], delay:i * 0.1 + .25, ease:Elastic.easeOut, immediateRender:true});
+    }
+  })();
+  </script>  
 
 
 
