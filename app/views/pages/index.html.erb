@@ -41,7 +41,7 @@
     //drop things into place (intro)
     for (var i = 0; i < boxes.length; i++) {
       TweenLite.from(boxes[i], .3, {css:{opacity:0}, delay:i * 1.1 + 0.25});
-      TweenLite.fromTo(boxes[i], 1, {css:{top:"-50%"}}, {css:positions[boxes[i].attr("data-pos")], delay:i * 0.1 + .25, ease:Elastic.easeOut, immediateRender:true});
+      TweenLite.fromTo(boxes[i], 1, {css:{top:"-50%"}}, {css:positions[boxes[i].attr("data-pos")], delay:i * .1 + 1.25, ease:Elastic.easeOut, immediateRender:true});
     }
   })();
   </script>  
