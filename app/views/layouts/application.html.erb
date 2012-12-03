@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<%= javascript_include_tag("CSSPlugin.min") %>
-	<%= javascript_include_tag("EasePack.min") %>
-	<%= javascript_include_tag("TweenLite.min") %>
+	
 <script type="text/javascript" href="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 
  
@@ -17,11 +15,10 @@
   <%= csrf_meta_tags %>
   <!-- <link rel="stylesheet" type="text/css" href="media/css/mobile.css" media="handheld"/>
   <link rel="stylesheet" type="text/css" href="media/css/screen.css" media="screen"/> -->
- <script src="path/to/file/jquery.queryloader2.js"
--type="text/javascript"></script>
+
 </head>
 
-<body onload = "hereWeGo();">
+<body>
 
 <%= yield %>
 
