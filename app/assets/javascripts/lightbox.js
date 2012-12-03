@@ -8,7 +8,7 @@
 
     function LightboxOptions() {
       this.fileLoadingImage = '../assets/loading.gif';
-      this.fileCloseImage = '../assets/close.png';
+      this.fileCloseImage = '../assets/closer.png';
       this.resizeDuration = 700;
       this.fadeDuration = 500;
       this.labelImage = "Image";
