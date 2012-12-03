@@ -42,6 +42,15 @@ a {
 	width: 570px;
 	height: 150px;	
 }
+
+
+
+
+
+
+
+
+
 /***************NAVAGATION STYLING***************/
 * {
 	padding: 0;
@@ -94,6 +103,16 @@ nav li a:hover {
 nav li:last-child a {
 	border: none;
 }
+
+
+
+
+
+
+
+
+
+
 /***************HOME PAGE STYLING***************/
 #home { 
 	position: relative; 
@@ -107,6 +126,16 @@ nav li:last-child a {
 	font-family: "Century Gothic", sans-serif;  
 	/*border:solid 1px #EFE6D6;*/
 }
+
+
+
+
+
+
+
+
+
+
 /***************ALL ABOUT ME PAGE STYLING***************/
 #about{
 	position: relative; 
@@ -152,6 +181,18 @@ nav li:last-child a {
   margin-top:5px;
   font-size: .7em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 /***************MY PORTFOLIO PAGE STYLING***************/
  #portfolio{ 
 	position: relative; 
@@ -204,6 +245,14 @@ padding: 20px 0 0 20px;
 	font-size:14px;
 	color:#666;
 }
+
+
+
+
+
+
+
+
 /***************CONTACT PAGE STYLING***************/
 #contact{
 	position: relative; 
@@ -265,6 +314,16 @@ form{
 	margin-bottom: -30px;
 	margin-top: 51px;
 }
+
+
+
+
+
+
+
+
+
+
 /***************LIGHT BOX STYLING***************/
 #lightboxOverlay {
   position: absolute;
@@ -396,10 +455,20 @@ form{
 .lb-data .lb-close:hover {
   cursor: pointer;
 }
-/***************** MEDIA QUERIES ******************/
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 500px) {
 	h1{
-	font-size: .7em;
+		/*color:red;*/
+		font-size: .7em;
 	}
 }
 @media screen and (max-width: 603px) {
@@ -431,7 +500,12 @@ form{
 		margin-top: 15%;
 	}
 }
-/***************** NAVIGATION MEDIA QUERIES ******************/
+
+
+
+
+
+/* NAVIGATION MEDIA QUERIES*/
 @media only screen and (max-width : 1220px),
 only screen and (max-device-width : 1220px){
 	nav li a {
@@ -454,6 +528,7 @@ only screen and (max-device-width : 1008px){
 		border-bottom: none;
 	}
 }
+
 @media only screen and (max-width : 580px),
 only screen and (max-device-width : 580px){
 	nav li a {
@@ -473,3 +548,4 @@ only screen and (max-device-width : 320px){
 		font: 400 11px/1.4 'Century Gothic', Helvetica, Verdana, Arial, sans-serif;
 	}
 }
+
