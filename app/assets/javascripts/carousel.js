@@ -5,14 +5,22 @@ $(document).ready(function(){
 
         (function hereWeGo() { 
             var positions = {
-                     front: {scale:1, left:"10%", top:"10%"},
+                     1: {scale:1, left:".5%", top:"6%"},
+                     2: {scale:1, left:"9.2%", top:"6%"},
+                     3: {scale:1, left:"18.9%", top:"6%"},
+                     4: {scale:1, left:"23.5%", top:"6%"},
+                     5: {scale:1, left:"28.2%", top:"6%"},
+                     6: {scale:1, left:"32.8%", top:"6%"},
+                     7: {scale:1, left:"42.3%", top:"6%"},
+                     8: {scale:1, left:"45.5%", top:"6%"},
+                     9: {scale:1, left:"48%", top:"6%"}
                     };
-            var boxes = [$('[data-pos="front"]')];
+            var boxes = [$('[data-pos="1"]'), $('[data-pos="8"]'), $('[data-pos="2"]'), $('[data-pos="4"]'), $('[data-pos="7"]'), $('[data-pos="5"]'), $('[data-pos="6"]'),  $('[data-pos="9"]'), $('[data-pos="3"]'),];
             
             //drop things into place (intro)
             for (var i = 0; i < boxes.length; i++) {
-              TweenLite.from(boxes[i], .3, {css:{opacity:0}, delay:i * 1.1 + 0.25});
-              TweenLite.fromTo(boxes[i], 1, {css:{top:"-50%"}}, {css:positions[boxes[i].attr("data-pos")], delay:i * .1 + 1.0, ease:Elastic.easeOut, immediateRender:true});
+              TweenLite.from(boxes[i], .3, {css:{opacity:0}, delay:i * .1 + .25});
+              TweenLite.fromTo(boxes[i], 1, {css:{top:"-50%"}}, {css:positions[boxes[i].attr("data-pos")], delay:i * .2 + .25, ease:Elastic.easeOut, immediateRender:true});
             }
           })();
 

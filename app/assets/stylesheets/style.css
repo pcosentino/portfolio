@@ -1,3 +1,67 @@
+.p {
+			background:url(../assets/logo/p.png) no-repeat;
+			left:.5%;	
+			width: 93px;
+			height: 155px;	
+		}
+		.co {
+			background:url(../assets/logo/co.png) no-repeat;
+			left:9.2%;	
+			width: 96px;
+			height: 155px;	
+		}
+		.r {
+			background:url(../assets/logo/r.png) no-repeat;
+			left:18.9%;	
+			width: 48px;
+			height: 155px;	
+		}
+		.t {
+			background:url(../assets/logo/t.png) no-repeat;
+			left:23.5%;	
+			width: 48px;
+			height: 155px;	
+		}
+		.f {
+			background:url(../assets/logo/f.png) no-repeat;
+			left:28.2%;	
+			width: 47px;
+			height: 155px;	
+		}
+		.o1 {
+			background:url(../assets/logo/o1.png) no-repeat;
+			left:32.8%;	
+			width: 96px;
+			height: 155px;	
+		}
+		.l {
+			background:url(../assets/logo/l.png) no-repeat;
+			left:42.3%;	
+			width: 27px;
+			height: 155px;	
+		}
+		.i {
+			background:url(../assets/logo/i.png) no-repeat;
+			left:45.5%;	
+			width: 25px;
+			height: 155px;	
+		}
+		.o2 {
+			background:url(../assets/logo/o2.png) no-repeat;
+			left:48%;	
+			width: 94px;
+			height: 155px;	
+		}
+
+
+
+
+
+
+
+
+
+
 body{
 	background:url(../assets/blue.jpg);
 	margin:0px;
@@ -34,14 +98,8 @@ a {
 	font-size:20px;
 }
 .playstation > div {
-	position:absolute;
-}
-.front {
-	background:url(../assets/logo2.png) no-repeat;
-	left:10%;	
-	width: 570px;
-	height: 150px;	
-}
+			position:absolute;
+		}
 
 
 
@@ -488,11 +546,14 @@ form{
 }
 @media screen and (max-width: 630px) {
 #logo2{
-	background: url(../assets/logo3.png);
+	background: url(../assets/logo3.png) no-repeat;
 	margin: 65px 0px 0px 5px;
 	width: 156px;
 	height: 703px;
 	}
+.playstation{
+	display: none;
+}
 }
 @media screen and (max-width: 1064px) {
 	#skills{
@@ -541,6 +602,10 @@ only screen and (max-device-width : 580px){
 	nav li:nth-child(5) a, nav li:nth-child(6) a, nav li:nth-child(7) a, nav li:nth-child(8) a {
 		border-bottom: none;
 	}	
+	/*#logo2{
+		background: url(../assets/logo2);
+		display: inline-block;
+	}*/
 }
 @media only screen and (max-width : 320px),
 only screen and (max-device-width : 320px){
