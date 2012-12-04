@@ -1,67 +1,3 @@
-.p {
-			background:url(../assets/logo/p.png) no-repeat;
-			left:.5%;	
-			width: 93px;
-			height: 155px;	
-		}
-		.co {
-			background:url(../assets/logo/co.png) no-repeat;
-			left:9.2%;	
-			width: 96px;
-			height: 155px;	
-		}
-		.r {
-			background:url(../assets/logo/r.png) no-repeat;
-			left:18.9%;	
-			width: 48px;
-			height: 155px;	
-		}
-		.t {
-			background:url(../assets/logo/t.png) no-repeat;
-			left:23.5%;	
-			width: 48px;
-			height: 155px;	
-		}
-		.f {
-			background:url(../assets/logo/f.png) no-repeat;
-			left:28.2%;	
-			width: 47px;
-			height: 155px;	
-		}
-		.o1 {
-			background:url(../assets/logo/o1.png) no-repeat;
-			left:32.8%;	
-			width: 96px;
-			height: 155px;	
-		}
-		.l {
-			background:url(../assets/logo/l.png) no-repeat;
-			left:42.3%;	
-			width: 27px;
-			height: 155px;	
-		}
-		.i {
-			background:url(../assets/logo/i.png) no-repeat;
-			left:45.5%;	
-			width: 25px;
-			height: 155px;	
-		}
-		.o2 {
-			background:url(../assets/logo/o2.png) no-repeat;
-			left:48%;	
-			width: 94px;
-			height: 155px;	
-		}
-
-
-
-
-
-
-
-
-
-
 body{
 	background:url(../assets/blue.jpg);
 	margin:0px;
@@ -97,9 +33,7 @@ a {
 	text-decoration: none; 
 	font-size:20px;
 }
-.playstation > div {
-			position:absolute;
-		}
+
 
 
 
@@ -184,7 +118,63 @@ nav li:last-child a {
 	font-family: "Century Gothic", sans-serif;  
 	/*border:solid 1px #EFE6D6;*/
 }
-
+.playstation > div {
+			position:absolute;
+}
+.p {
+	background:url(../assets/logo/p.png) no-repeat;
+	left:.5%;	
+	width: 93px;
+	height: 155px;	
+}
+.co {
+	background:url(../assets/logo/co.png) no-repeat;
+	left:9.2%;	
+	width: 96px;
+	height: 155px;	
+}
+.r {
+	background:url(../assets/logo/r.png) no-repeat;
+	left:18.9%;	
+	width: 48px;
+	height: 155px;	
+}
+.t {
+	background:url(../assets/logo/t.png) no-repeat;
+	left:23.5%;	
+	width: 48px;
+	height: 155px;	
+}
+.f {
+	background:url(../assets/logo/f.png) no-repeat;
+	left:28.2%;	
+	width: 47px;
+	height: 155px;	
+}
+.o1 {
+	background:url(../assets/logo/o1.png) no-repeat;
+	left:32.8%;	
+	width: 96px;
+	height: 155px;	
+}
+.l {
+	background:url(../assets/logo/l.png) no-repeat;
+	left:42.3%;	
+	width: 27px;
+	height: 155px;	
+}
+.i {
+	background:url(../assets/logo/i.png) no-repeat;
+	left:45.5%;	
+	width: 25px;
+	height: 155px;	
+}
+.o2 {
+	background:url(../assets/logo/o2.png) no-repeat;
+	left:48%;	
+	width: 94px;
+	height: 155px;	
+}
 
 
 
