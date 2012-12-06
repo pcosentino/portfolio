@@ -175,6 +175,12 @@ nav li:last-child a {
 	width: 94px;
 	height: 155px;	
 }
+#title {
+	font-size: 24px;
+	color:#004269;
+	margin:110px 0 0 288px;
+}
+.title-line span { position: relative; }
 
 
 

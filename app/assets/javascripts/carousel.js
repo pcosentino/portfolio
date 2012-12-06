@@ -22,6 +22,20 @@ $(document).ready(function(){
               TweenLite.from(boxes[i], .3, {css:{opacity:0}, delay:i * .1 + .25});
               TweenLite.fromTo(boxes[i], 1, {css:{top:"-50%"}}, {css:positions[boxes[i].attr("data-pos")], delay:i * .2 + .25, ease:Elastic.easeOut, immediateRender:true});
             }
+
+
+            $('body').css('visibility','visible');
+  
+      // slide in
+      $('#title-line1').lettering();
+    
+      // TimelineLite for title animation
+      (new TimelineLite())
+        .from( $('#title-line1 span'), 1, {delay: 2.0, css:{right:'1000px'}, ease:Elastic.easeOut})
+        
+      function initScrollAnimations() {
+        $('#content-wrapper').css('display','block');
+      }
           })();
 
 
