@@ -11,18 +11,18 @@ $(document).ready(function(){
          8: {scale:1, left:"45.5%", top:"6%"},
          9: {scale:1, left:"48%", top:"6%"}
         };
-      var boxes = [$('[data-pos="1"]'), $('[data-pos="8"]'), $('[data-pos="2"]'), $('[data-pos="4"]'), $('[data-pos="7"]'), $('[data-pos="5"]'), $('[data-pos="6"]'),  $('[data-pos="9"]'), $('[data-pos="3"]'),];
+      var boxes = [$('[data-pos="1"]'), $('[data-pos="8"]'), $('[data-pos="2"]'), $('[data-pos="4"]'), $('[data-pos="7"]'), $('[data-pos="5"]'), $('[data-pos="6"]'), $('[data-pos="3"]'), $('[data-pos="9"]'),];
       //drop things into place (intro)
       for (var i = 0; i < boxes.length; i++) {
-        TweenLite.from(boxes[i], .3, {css:{opacity:0}, delay:i * .1 + .25});
-        TweenLite.fromTo(boxes[i], 1, {css:{top:"-50%"}}, {css:positions[boxes[i].attr("data-pos")], delay:i * .2 + .25, ease:Elastic.easeOut, immediateRender:true});
+        TweenLite.from(boxes[i], .5, {css:{opacity:0}, delay:i * .1 + .25});
+        TweenLite.fromTo(boxes[i], 1, {css:{top:"-50%"}}, {css:positions[boxes[i].attr("data-pos")], delay:i * .1 + 1.5, ease:Elastic.easeOut, immediateRender:true});
       }
       $('body').css('visibility','visible');
       // slide in
       $('#title-line1').lettering();
       // TimelineLite for title animation
       (new TimelineLite())
-        .from( $('#title-line1 span'), 1, {delay: 2.0, css:{right:'1000px'}, ease:Elastic.easeOut})
+        .from( $('#title-line1 span'), 1, {delay: 2.9, css:{right:'1000px'}, ease:Elastic.easeOut})
       function initScrollAnimations() {
         $('#content-wrapper').css('display','block');
       }
