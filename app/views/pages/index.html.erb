@@ -46,10 +46,9 @@
 
 <!-- ABOUT PAGE -->  
 		<div id="about">
-		   <a name="about"></a>
-
+		   <a name="about"></a>       
 		  <h1>ABOUT ME</h1>
-      <span class="sub"> watch out, time for me to brag..</span>
+      <div class="sub"> watch out, time for me to brag..</div>
 		  
 		  <p>Hello, my name is Paolo Cosentino I'm a Web & Graphic Designer based in Chicago, Il. I also have major skills in motion graphics, and print design. If you have a project or creative need that I can help with, get ahold of me!
 		  </p>
@@ -94,7 +93,7 @@
 <div id="portfolio">
    <a name="portfolio"></a>	
   <h1>PORTFOLIO</h1>	
-  <span class="sub">A few things I've dabbled on..</span>
+  <div class="sub">A few things I've dabbled on..</div>
 <div id="work">
 
 
@@ -151,7 +150,7 @@
 
 <!--- MOVIES -->
       <span class="cat">
-        <a href="assets/tkml.mov"  type="video/mov" rel="lightvideo">
+        <a href="assets/tkml.mov" type="video/mov" rel="lightvideo" >
           <span id="fade"><img src="assets/tkml_thumb_mov.jpg" width="122" height="122"/></span>
           <span class="description">tkml Whiteboard Animation<br>
             <ul><li>Design, Front & Back-end Development</li></ul></span>
@@ -191,9 +190,9 @@
 	<div id="contact">
 	  <a name="contact"></a>
 	  <h1>CONTACT</h1>
-    <span class="sub"> don't be shy, drop by to say hi</span>
+    <div class="sub"> don't be shy, drop by to say hi</div>
       <p id="contact_blurb">
-        I'm currently available for freelance projects. If you're interested in working with me, please get in touch using one of the methods below. Or feel free to just say hi. I like that too.
+        I'm currently available for freelance projects. If you like what you see and you're interested in working with me, please, get in touch using one of the methods below. Or feel free to just say hi. I like that too.
      </p>
     <%= form_tag url_for(:action => 'send_email'), :remote => true, :id => 'contact_form' do %>
       <div id="tag1">First Name:</div>
@@ -207,18 +206,30 @@
       <%= submit_tag "Submit", :id => "submit_form_button" %>
     <% end %>
 
+    
 
-    <!--<span id="email">The Old-Fashioned Way
-      <p>
-        If you're not a fan of filling out forms <br>
-        and you'd rather email me at <br>
-        pcportfolio88@gmail.com, please, be my guest.
-      </p>
-    </span> -->
+    <span id="socialmedia">
+      <p>Check out my linkedin..</p>
+        <a href="http://www.linkedin.com/profile/view?id=106884262&trk=tab_pro" target="blank">
+          <img src="/assets/linkedin.png" width="80" height="80">
+        </a>
 
+        <p>
+          ..or just email me directly at: <br>
+          <img src="/assets/email.png">
+</p>
+        </p>
+        <!--  <p>..twitter feed..</p>
+        <a href="http://www.google.com" target="blank">
+          <img src="/assets/twitter.png" width="80" height="80">
+        </a>
 
+          <p>..and facebook page!</p>
+        <a href="http://www.google.com" target="blank">
+          <img src="/assets/facebook.png" width="80" height="80">
+        </a> -->
+    </span>
 	</div>
-
 
 
 
