@@ -373,7 +373,7 @@ form{
 }
 #socialmedia p{
 	margin: -15px 0 0 5px;
-	font-size: .25em;
+	font-size: 12pt;
 
 }
 
@@ -524,7 +524,7 @@ form{
 @media screen and (max-width: 430px) {
 #socialmedia{
 		display: block;
-		margin-left: 60px !important;
+		margin-left: 55px !important;
 	}
 #socialmedia a{
 	display: inline !important;
