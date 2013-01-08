@@ -368,7 +368,7 @@ form{
 #socialmedia{
 	display: inline-block;
 	margin-top: 2%;
-	margin-left: 10%;
+	margin-left: 5%;
 	position: absolute;
 }
 #socialmedia p{
@@ -521,11 +521,20 @@ form{
 
 
 
-
+@media screen and (max-width: 430px) {
+#socialmedia{
+		display: block;
+		margin-left: 60px !important;
+	}
+#socialmedia a{
+	display: inline !important;
+	}
+}
 @media screen and (max-width: 500px) {
 	h1{
 		font-size: .7em;
 	}
+	
 }
 @media screen and (max-width: 603px) {
 	.sub { 
@@ -541,6 +550,7 @@ form{
 	.cat{
 		margin: 0 15%;
 	}
+
 }
 @media screen and (max-width: 630px) {
 #logo2{
@@ -555,21 +565,28 @@ form{
 	#title{
 	display: none;
 	}
+	#socialmedia p{
+		display: none;
+	}
+	#socialmedia a{
+		display: block;
+	}
 }
-
+@media screen and (max-width: 770px) {
+	#socialmedia {
+		margin-top: 2%;
+		margin-left: -61px;
+	}
+	#contact{
+		height:800px;
+	}
+}
 @media screen and (max-width: 1064px) {
 	#skills{
 		margin-left: 30px;
 		margin-top: 15%;
 	}
-	#socialmedia{
-		display: block;
-		margin-left: 15%;
-		margin-top:5%;
-	}
-	#contact{
-		height:900px;
-	}
+	
 }
 
 
