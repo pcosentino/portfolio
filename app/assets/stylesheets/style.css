@@ -208,7 +208,7 @@ nav li:last-child a {
 }
 .pic{
   display: inline-block;
-  margin: 10% 75px 5% 75px;
+  margin: 3.5% 75px 5% 75px;
   position: absolute;
   -moz-transform: rotate(-7deg);  
 	transform:rotate(-7deg);
