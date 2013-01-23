@@ -22,7 +22,7 @@ $(document).ready(function(){
       $('#title-line1').lettering();
       // TimelineLite for title animation
       (new TimelineLite())
-        .from( $('#title-line1 span'), 1, {delay: 2.9, css:{right:'1000px'}, ease:Elastic.easeOut})
+        .from( $('#title-line1 span'), 1, {delay: 3, css:{right:'1300px'}, ease:Elastic.easeInOut})
       function initScrollAnimations() {
         $('#content-wrapper').css('display','block');
       }

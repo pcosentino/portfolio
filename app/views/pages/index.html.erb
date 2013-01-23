@@ -198,13 +198,13 @@
      
     <%= form_tag url_for(:action => 'send_email'), :remote => true, :id => 'contact_form' do %>
       <div id="tag1">First Name:</div>
-      <%= text_field_tag :first_name, '', :name => "user[first_name]", :size => "41" %><br>
+      <%= text_field_tag :first_name, '', :name => "user[first_name]", :size => "33" %><br>
       <div id="tag1">Last Name:</div>
-      <%= text_field_tag :last_name, '', :name => "user[last_name]", :size => "41" %><br>
+      <%= text_field_tag :last_name, '', :name => "user[last_name]", :size => "33" %><br>
       <div id="tag1">Email Address:</div>
-      <%= text_field_tag :email_address, '', :name => "user[email_address]", :size => "41" %><br>
+      <%= text_field_tag :email_address, '', :name => "user[email_address]", :size => "33" %><br>
       <div id="tag1">How can I help you?</div>
-      <%= text_area_tag :notes, '', :name => "user[notes]", :size => "30x10" %><br>
+      <%= text_area_tag :notes, '', :name => "user[notes]", :size => "29x8" %><br>
       <%= submit_tag "Submit", :id => "submit_form_button" %>
     <% end %>
 
@@ -221,10 +221,10 @@
           <img src="/assets/github.png" width="80" height="80">
         </a>
 
-      <!-- <p>..and facebook page!</p>
-        <a href="http://www.google.com" target="blank">
-          <img src="/assets/facebook.png" width="80" height="80">
-        </a>  -->
+      <p>..and youtube page!</p>
+        <a href="http://www.youtube.com/user/paolosportfolio" target="blank">
+          <img src="/assets/youtube.png" width="80" height="80">
+        </a> 
 
         <p>
           ..or just email me directly at: <br>
