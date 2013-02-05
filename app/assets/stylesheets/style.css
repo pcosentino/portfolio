@@ -550,20 +550,21 @@ form{
 
 
 
-@media screen and (max-width: 366px) {
+@media screen and (max-width: 377px) {
 nav{
-	width: 350px;
+	width: 363px;
 }
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 420px) {
+
 #about{
-	width: 355px;
+	width: 366px;
 }
 #portfolio{
-	width: 355px;
+	width: 366px;
 }
 #contact{
-	width: 355px;
+	width: 366px;
 }
 }
 @media screen and (max-width: 500px) {
