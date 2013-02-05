@@ -35,8 +35,8 @@ a {
 	font-size:20px;
 }
 
-#mesh{
-	background: url(../assets/mesh.png);
+#dimensions{
+	background: url(../assets/dimensions.png);
 	width: 728px;
 	height: 254px;
 	position: absolute;
@@ -119,10 +119,9 @@ nav li:last-child a {
 	height: 1000px;
 	color:black;
 	padding:60px 0px 0 0;
-	margin:0px auto;
+	margin:0px 0 0 8%; 
 	font-size: 60px; 
 	font-family: "Century Gothic", sans-serif;  
-	/*border:solid 1px #EFE6D6;*/
 }
 .playstation > div {
 	position:absolute;
@@ -593,6 +592,9 @@ form{
 .playstation{
 	display: none;
 	}
+#dimensions{
+	display: none;
+}
 	#title{
 	display: none;
 	}
