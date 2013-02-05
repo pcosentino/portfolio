@@ -550,17 +550,22 @@ form{
 
 
 
-
-
-/*@media screen and (max-width: 430px) {
-#socialmedia{
-		display: block;
-		margin-left: 55px !important;
-	}
-#socialmedia a{
-	display: inline !important;
-	}
-}*/
+@media screen and (max-width: 366px) {
+nav{
+	width: 350px;
+}
+}
+@media screen and (max-width: 415px) {
+#about{
+	width: 355px;
+}
+#portfolio{
+	width: 355px;
+}
+#contact{
+	width: 355px;
+}
+}
 @media screen and (max-width: 500px) {
 	h1{
 		font-size: .7em;
