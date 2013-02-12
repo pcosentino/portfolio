@@ -239,7 +239,7 @@ nav li:last-child a {
 }
 .pic{
   display: inline-block;
-  margin: 3.5% 75px 5% 75px;
+  margin: 3.5% 75px 5% 15px;
   position: absolute;
   -moz-transform: rotate(-7deg);  
 	transform:rotate(-7deg);
@@ -248,6 +248,9 @@ nav li:last-child a {
 	-webkit-transform:rotate(-7deg); /* Safari and Chrome */
 	-o-transform:rotate(-7deg); /* Opera */
 }	
+.thatsme{
+	margin: 0px -45px -20px 0;
+}
 #skills{
 	color:#004269;
   font-size: 0.4em;
