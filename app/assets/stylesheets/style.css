@@ -333,8 +333,10 @@ padding: 20px 0 0 20px;
 	font-size:14px;
 	color:#666;
 }
-
-
+#other {
+	float: right;
+	margin-top: -70px;
+}
 
 
 
