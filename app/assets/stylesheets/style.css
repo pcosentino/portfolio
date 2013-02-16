@@ -125,10 +125,9 @@ nav li:last-child a {
 }
 #home p{
 	color: #001b4a;
-	margin: 450px 0 0 0;
+	margin: 450px auto 0 auto;
 	font-size: 1em;
 	font-family: "Just Another Hand";
-	float: right;
 }
 .playstation > div {
 	position:absolute;
@@ -613,9 +612,14 @@ nav{
 #dimensions{
 	display: none;
 }
-	#title{
+#title{
 	display: none;
-	}
+}
+#home p{
+	margin: 0;
+	font-size:0.6em;
+}
+
 }
 @media screen and (max-width: 670px) {
 	#socialmedia{
