@@ -123,6 +123,13 @@ nav li:last-child a {
 	font-size: 60px; 
 	font-family: "Century Gothic", sans-serif;  
 }
+#home p{
+	color: #001b4a;
+	margin: 450px 0 0 0;
+	font-size: 1em;
+	font-family: "Just Another Hand";
+	float: right;
+}
 .playstation > div {
 	position:absolute;
 }
