@@ -600,6 +600,9 @@ nav{
 	}
 }
 @media screen and (max-width: 630px) {
+#home{
+	width: 345px;
+}
 #logo2{
 	background: url(../assets/logo3.png) no-repeat;
 	margin: 65px 0px 0px 5px;
