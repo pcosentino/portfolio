@@ -52,24 +52,24 @@ $('.lightbox').live('click',function(){
 		}
 		function ScrollToBottom() {
     $('html,body').animate({
-           scrollTop: $('#btnScrollToTop').offset().top}, 2000);
+           scrollTop: $('#btnScrollToTop').offset().top}, 1200, 'easeInOutExpo');
     }
 
     function ScrollToPositionA() {
     $('html,body').animate({
-            scrollTop: $('#portfolio').offset().top}, 1000, 'easeInOutCubic');
+            scrollTop: $('#portfolio').offset().top}, 1200, 'easeInOutExpo');
     }
     
     function ScrollToPositionB() {
     $('html,body').animate({
-              scrollTop: $('#about').offset().top}, 1000, 'easeInOutCubic');
+              scrollTop: $('#about').offset().top}, 1200, 'easeInOutExpo');
     }
    
     function ScrollToPositionC() {
     $('html,body').animate({
-          scrollTop: $('#contact').offset().top}, 1000, 'easeInOutCubic');
+          scrollTop: $('#contact').offset().top}, 1200, 'easeInOutExpo');
     }
 
     function ScrollToTop() {
-    $('html,body').animate({scrollTop: 0}, 1000, 'easeInOutCubic');
+    $('html,body').animate({scrollTop: 0}, 1200, 'easeInOutExpo');
     }
