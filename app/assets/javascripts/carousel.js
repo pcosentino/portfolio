@@ -73,3 +73,31 @@ $('.lightbox').live('click',function(){
     function ScrollToTop() {
     $('html,body').animate({scrollTop: 0}, 1200, 'easeInOutQuad');
     }
+
+
+$(document).ready(function() {
+
+  // Set up link thumbnails
+  $('a.shadow').each(function(){
+    
+    var thumbnailFilePath = 'assets/' + $(this).attr('videofile') + '.jpg';
+    var videoCaption = $(this).attr('videocaption');
+    
+    $(this).css('background-image','url('+thumbnailFilePath+')');
+    $(this).html('<div class="caption">'+videoCaption+'</div>');
+  });
+  
+  $('a.shadow').hover(
+    function(){
+      var captionPosition = 85 - $(this).children('.caption').height();
+      var iconPositionTop = captionPosition-32;
+      $(this).children('.caption').animate({top:captionPosition+'px'},250);
+      
+    },
+    function(){
+      $(this).children('.caption').animate({top:'116px'},250);
+      
+    }
+  );
+  
+});
