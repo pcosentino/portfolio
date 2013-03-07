@@ -40,7 +40,7 @@ a {
 	width: 728px;
 	height: 254px;
 	position: absolute;
-	margin: -31px 0 0 -73px;
+	margin: 12px 0 0 -73px;
 }
 
 
@@ -115,17 +115,19 @@ nav li:last-child a {
 /***************HOME PAGE STYLING***************/
 #home { 
 	position: relative; 
-	width: 1000px; 
+	width: 80%; 
 	height: 1000px;
 	color:black;
 	padding:60px 0px 0 0;
-	margin:0px 0 0 8%; 
+	margin:0px 0 0 85px; 
 	font-size: 60px; 
 	font-family: "Century Gothic", sans-serif;  
 }
 #home p{
+	position: absolute;
+	width: 600px;
 	color: #001b4a;
-	margin: 450px auto 0 auto;
+	margin: 450px 0 0 -19px;
 	font-size: 1em;
 	font-family: "Just Another Hand";
 }
@@ -134,62 +136,64 @@ nav li:last-child a {
 }
 .p {
 	background:url(../assets/logo/p.png) no-repeat;
-	left:.5%;	
+	left:5px;	
 	width: 93px;
 	height: 155px;	
 }
 .co {
 	background:url(../assets/logo/co.png) no-repeat;
-	left:9.2%;	
+	left:92px;	
 	width: 96px;
 	height: 155px;	
 }
 .r {
 	background:url(../assets/logo/r.png) no-repeat;
-	left:18.9%;	
+	left:189px;	
 	width: 48px;
 	height: 155px;	
 }
 .t {
 	background:url(../assets/logo/t.png) no-repeat;
-	left:23.5%;	
+	left:235px;	
 	width: 48px;
 	height: 155px;	
 }
 .f {
 	background:url(../assets/logo/f.png) no-repeat;
-	left:28.2%;	
+	left:282px;	
 	width: 47px;
 	height: 155px;	
 }
 .o1 {
 	background:url(../assets/logo/o1.png) no-repeat;
-	left:32.8%;	
+	left:328px;	
 	width: 96px;
 	height: 155px;	
 }
 .l {
 	background:url(../assets/logo/l.png) no-repeat;
-	left:42.3%;	
+	left:423px;	
 	width: 27px;
 	height: 155px;	
 }
 .i {
 	background:url(../assets/logo/i.png) no-repeat;
-	left:45.5%;	
+	left:455px;	
 	width: 25px;
 	height: 155px;	
 }
 .o2 {
 	background:url(../assets/logo/o2.png) no-repeat;
-	left:48%;	
+	left:480px;	
 	width: 94px;
 	height: 155px;	
 }
 #title {
+	position: absolute;
+	width: 300px;
 	font-size: 24px;
 	color:#004269;
-	margin:110px 0 0 288px;
+	margin:150px 0 0 288px;
 }
 .title-line span { position: relative; top:28px; right:13px;}
 
@@ -643,14 +647,14 @@ nav{
 		margin: 0 15%;
 	}
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 750px) {
 #home{
 	width: 345px;
 }
 #logo2{
 	background: url(../assets/logo3.png) no-repeat;
-	margin: 65px 0px 0px 5px;
-	width: 156px;
+	margin: 0px 0px 0px -58px;
+	/*width: 156px;*/
 	height: 703px;
 	}
 .playstation{
@@ -663,7 +667,9 @@ nav{
 	display: none;
 }
 #home p{
-	margin: 0;
+	position:absolute;
+	width: 360px;
+	margin: 0 0 0 -58px;
 	font-size:0.6em;
 }
 
