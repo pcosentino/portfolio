@@ -105,7 +105,7 @@
   <div class="sub">a few things I've dabbled on..</div>
 <div id="work">
 
-    <span class="cat">
+    <!-- <span class="cat">
           <a class="shadow" 
              href="assets/asa.jpg" 
              type="video/mov" width="800" 
@@ -116,9 +116,23 @@
           <a href="assets/asa2.jpg" rel="lightbox[group]"></a>
           <a href="assets/asa3.jpg" rel="lightbox[group]"></a>
           </a>
-    </span>   
+    </span> 
+ -->
+    <span class="gallery clearfix"></span>        
+        <span class="cat">
+        <ul class="gallery clearfix">
+          <a class="shadow" 
+             href="assets/asa.jpg?width=800&amp;height=450" 
+             rel="prettyPhoto" 
+             videocaption="ASA Purl" 
+             title="Front & Back-end Development" 
+             videofile="asa_thumb2">
+             <img src="asa_thumb2" width="200" alt="ASA Purl" />
+           </a>
+         </ul>
+        </span>  
 
-    <span class="cat">
+  <span class="cat">
           <a class="shadow" 
              href="assets/frito1.jpg" 
              type="video/mov" width="800" 
@@ -201,7 +215,7 @@
           </a>
   </span>
 
-  <span class="cat">
+  <!-- <span class="cat">
           <a class="shadow" 
              href="assets/balance_act.mov" 
              type="video/mov" width="800" 
@@ -210,9 +224,24 @@
              videocaption="Original TKML Whiteboard Animation Design, Front & Back-end Development"
              rel="lightvideo">
           </a>
-  </span>
+  </span> -->
 
-  <span class="cat">
+        <span class="gallery clearfix"></span>        
+        <span class="cat">
+        <ul class="gallery clearfix">
+          <a class="shadow" 
+             href="assets/balance_act.mov?width=900&amp;height=350" 
+             rel="prettyPhoto" 
+             videocaption="Whiteboard Animation " 
+             title="Design, Front & Back-end Development" 
+             videofile="bal_act_thumb2">
+             <img src="bal_act_thumb2" width="200" alt="TKML Whiteboard" />
+           </a>
+         </ul>
+        </span>
+
+
+ <!--  <span class="cat">
           <a class="shadow" 
              href="assets/du_xmas_card.mov" 
              type="video/mov" width="800" 
@@ -221,10 +250,24 @@
              videocaption="Dominican University Christmas E-Card Design, Front & Back-end Animation"
              rel="lightvideo">
           </a>
-  </span>
+  </span> -->
+
+        <span class="gallery clearfix"></span>        
+        <span class="cat">
+        <ul class="gallery clearfix">
+          <a class="shadow" 
+             href="assets/xmascard.swf?width=600&amp;height=500" 
+             rel="prettyPhoto[flash]" 
+             videocaption="Christmas E-Card Animation" 
+             title="Front & Back-end Animation with Flash" 
+             videofile="du_xmas_thumb2">
+             <img src="du_xmas_thumb2" width="200" alt="Christmas E-card" />
+           </a>
+         </ul>
+        </span>
 
 
-<span class="cat">
+<!-- <span class="cat">
           <a class="shadow" 
              href="assets/blue_n_red.swf" 
              type="video/mov" width="800" 
@@ -233,10 +276,24 @@
              videocaption="Blue n Red Flash Animation Design, Front & Back-end Animation"
              rel="lightvideo">
           </a>
-  </span>
+  </span> -->
+
+        <span class="gallery clearfix"></span>        
+        <span class="cat">
+        <ul class="gallery clearfix">
+          <a class="shadow" 
+             href="assets/blue_n_red.swf?width=600&amp;height=420" 
+             rel="prettyPhoto[flash]" 
+             videocaption="Blue n Red Animation" 
+             title="Front & Back-end Animation with Flash" 
+             videofile="bluenred_thumb">
+             <img src="bluenred_thumb" width="200" alt="Blue N Red" />
+           </a>
+         </ul>
+        </span>
 
 
-  <span class="cat">
+ <!--  <span class="cat">
           <a class="shadow" 
              href="assets/why_so_blue.swf" 
              type="video/mov" width="800" 
@@ -245,10 +302,24 @@
              videocaption="Why You So Blue Animation Design, Front & Back-end Animation"
              rel="lightvideo">
           </a>
-  </span>
+  </span> -->
 
 
- <span class="cat">
+    <span class="gallery clearfix"></span>        
+        <span class="cat">
+        <ul class="gallery clearfix">
+          <a class="shadow" 
+             href="assets/why_so_blue.swf?width=800&amp;height=450" 
+             rel="prettyPhoto[flash]" 
+             videocaption="Why You So Blue Animation" 
+             title="Front & Back-end Animation with Flash" 
+             videofile="why_so_blue_thumb">
+             <img src="why_so_blue_thumb" width="200" alt="Why You So Blue" />
+           </a>
+         </ul>
+        </span>
+
+ <!-- <span class="cat">
           <a class="shadow" 
              href="assets/bar_scene.swf" 
              type="video/mov" width="800" 
@@ -257,7 +328,35 @@
              videocaption="Lazer Nites Animation Design, Front & Back-end Animation"
              rel="lightvideo">
           </a>
-  </span>
+  </span> -->
+
+
+        <span class="gallery clearfix"></span>        
+        <span class="cat">
+        <ul class="gallery clearfix">
+          <a class="shadow" 
+             href="assets/bar_scene.swf?width=800&amp;height=500" 
+             rel="prettyPhoto[flash]" 
+             videocaption="Lazer Nites Animation" 
+             title="Design, Front & Back-end Animation with Flash" 
+             videofile="bar_scene_thumb">
+             <img src="bar_scene_thumb" width="200" alt="Lazer Nites" />
+           </a>
+         </ul>
+        </span>
+
+        
+  
+      
+
+        <script type="text/javascript" charset="utf-8">
+        $(document).ready(function(){
+          $(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'slow',slideshow:10000, hideflash: true});
+        });
+        </script>
+
+
+
 <!-- <span class="cat">
         <a href="assets/asa.jpg" rel="lightbox[group]">
           <span id="fade"><img src="assets/asa_thumb.jpg" width="122" height="122"/></span>
