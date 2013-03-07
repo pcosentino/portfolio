@@ -126,8 +126,9 @@ nav li:last-child a {
 #home p{
 	position: absolute;
 	width: 600px;
+	line-height: 65px;
 	color: #001b4a;
-	margin: 450px 0 0 -19px;
+	margin: 456px 0 0 -19px;
 	font-size: 1em;
 	font-family: "Just Another Hand";
 }
