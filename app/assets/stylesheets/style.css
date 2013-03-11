@@ -41,7 +41,7 @@ a {
 	width: 728px;
 	height: 254px;
 	position: absolute;
-	margin: 12px 0 0 -73px;
+	margin: 34px 0 0 -73px;
 }
 
 
@@ -195,7 +195,7 @@ nav li:last-child a {
 	width: 300px;
 	font-size: 24px;
 	color:#004269;
-	margin:150px 0 0 288px;
+	margin: 175px 0 0 290px;
 }
 .title-line span { position: relative; top:28px; right:13px;}
 
