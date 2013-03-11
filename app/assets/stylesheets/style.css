@@ -36,14 +36,6 @@ a {
 	border:none;
 }
 
-#dimensions{
-	background: url(../assets/dimensions.png);
-	width: 728px;
-	height: 254px;
-	position: absolute;
-	margin: 34px 0 0 -73px;
-}
-
 
 
 
@@ -124,12 +116,19 @@ nav li:last-child a {
 	font-size: 60px; 
 	font-family: "Century Gothic", sans-serif;  
 }
+#dimensions{
+	background: url(../assets/dimensions.png);
+	width: 728px;
+	height: 254px;
+	position: absolute;
+	margin: 34px 0 0 -73px;
+}
 #home p{
 	position: absolute;
 	width: 600px;
 	line-height: 65px;
 	color: #001b4a;
-	margin: 456px 0 0 -19px;
+	margin: 480px 0 0 -19px;
 	font-size: 1em;
 	font-family: "Just Another Hand";
 }
