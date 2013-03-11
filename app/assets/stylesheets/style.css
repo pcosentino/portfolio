@@ -208,32 +208,6 @@ nav li:last-child a {
 
 
 /***************ALL ABOUT ME PAGE STYLING***************/
-/*#dimension{
-	position: absolute;
-	border-top: 2px solid #cfe9ff;
-	border-left: 2px solid #cfe9ff;
-	margin: -26px auto 0 auto;
-	width: 100%;
-	height: 20px;
-	border-right: 2px solid #cfe9ff;
-}
-#next{
-	display: inline-block;
-	float: left;
-	margin-left: -3%;
-	border-left: 2px solid #cfe9ff;
-	border-top: 2px solid #cfe9ff;
-	border-bottom: 2px solid #cfe9ff;
-	height: 100%;
-	width: 2%;
-	position: absolute;
-}
-#dimension p{
-	text-align: center;
-	font-size: 15px;
-	color: #cfe9ff;
-	margin: -25px 0 0 0;
-}*/
 #about{
 	position: relative; 
 	width: 90%; 
@@ -318,42 +292,102 @@ h6{
 }
 .cat{
 	height:115px;
-	/*margin-right:15px;*/
 	box-shadow:10px 10px 5px #888;
 	display:inline-block;
 }
-.cat li a:hover{
-	background-position:0px bottom;
-	color:#fff;
+.asa{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 0px;
 }
-.cat li a:hover .fade{
-	background-position:right bottom;
+.frito{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 -115px;
 }
-.cat a .description {
-	display:none;
-} 
-.cat a:hover .description {
-	display:inline-block;
-	position:absolute;
-	top:179px;
-	left:100px;
-	font-size:18px;
-	color:#000;
+.tkml1{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 -230px;
 }
-/*.cat ul{
-	margin-left:18px;
-	font-size:14px;
-	color:#666;
-}*/
-#other {
-	float: right;
-	margin-top: -70px;
+.touch{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 -345px;
 }
-
-
+.kiss{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 -460px;
+}
+.rocky{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 -575px;
+}
+.tkml2{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 -690px;
+}
+.tkml3{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 -805px;
+}
+.tkml4{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 -920px;
+}
+.xmascard{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 -1035px;
+}
+.bluenred{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 -1150px;
+}
+.whysoblue{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 -1265px;
+}
+.barscene{
+	display: inline-block;
+	border:none;
+	width:200px;
+	height: 115px;
+	background: url(../assets/work_sprite.jpg) 0 -1380px;
+}
 a.shadow {
 	display: block;
-	/*margin: 0px 15px 15px 0px;*/
 	padding: 0px;
 	width: 200px;
 	height: 115px;
@@ -361,10 +395,8 @@ a.shadow {
 	position: relative;
 	cursor: pointer;
 	background: no-repeat 0px 0px;
-	/*border: 1px solid #000;*/
 	overflow: hidden;
 }
-
 a.shadow div.caption {
 	position: absolute; 
 	width: 200px; 
@@ -374,7 +406,10 @@ a.shadow div.caption {
 	background-color: rgba(0,0,0,.65);
 	font-family: "Futura"; 
 	font-size: 12px;
-	
+}
+#other {
+	float: right;
+	margin-top: -70px;
 }
 
 
