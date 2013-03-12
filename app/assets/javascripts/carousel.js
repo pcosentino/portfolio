@@ -80,10 +80,10 @@ $(document).ready(function() {
   // Set up link thumbnails
   $('a.shadow').each(function(){
     
-    var thumbnailFilePath = 'assets/' + $(this).attr('videofile') + '.jpg';
+    
     var videoCaption = $(this).attr('videocaption');
     
-    $(this).css('background-image','url('+thumbnailFilePath+')');
+   
     $(this).html('<div class="caption">'+videoCaption+'</div>');
   });
   
