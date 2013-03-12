@@ -131,7 +131,7 @@ nav li:last-child a {
 	color: #001b4a;
 	margin: 480px 0 0 -19px;
 	font-size: 1em;
-	font-family: "Just Another Hand";
+	font-family: "Just Another Hand", Tahoma;
 }
 .playstation > div {
 	position:absolute;
