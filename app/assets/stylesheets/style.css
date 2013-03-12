@@ -51,6 +51,7 @@ a {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
+
 }
 nav {
 	width: 100%;
@@ -109,7 +110,8 @@ nav li:last-child a {
 /***************HOME PAGE STYLING***************/
 #home { 
 	position: relative; 
-	width: 80%; 
+	width: 80%;
+	width: 900px\9; 
 	height: 1000px;
 	color:black;
 	padding:60px 0px 0 0;
@@ -210,7 +212,8 @@ nav li:last-child a {
 /***************ALL ABOUT ME PAGE STYLING***************/
 #about{
 	position: relative; 
-	width: 90%; 
+	width: 90%;
+	width: 900px\9; 
 	height: 90%;
 	margin:50px auto 100px auto;
 	font-size: 60px; 
@@ -271,6 +274,7 @@ nav li:last-child a {
  #portfolio{ 
 	position: relative; 
 	width: 90%; 
+	width: 900px\9;
 	height: 100%; 
 	margin:50px auto 100px auto;
 	background:#efe6d6;
@@ -364,6 +368,9 @@ a.shadow div.caption {
 	float: right;
 	margin-top: -70px;
 }
+#other img{
+	border: none;
+}
 
 
 
@@ -374,6 +381,7 @@ a.shadow div.caption {
 #contact{
 	position: relative; 
 	width: 90%; 
+	width: 900px\9;
 	margin:50px auto 200px auto;
 	padding-bottom: 50px;
 	font-size: 60px; 
