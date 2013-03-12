@@ -360,6 +360,7 @@ a.shadow div.caption {
 	font-size: 12px;
 }
 #other {
+	border: none;
 	float: right;
 	margin-top: -70px;
 }
