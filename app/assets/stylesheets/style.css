@@ -299,7 +299,7 @@ h6{
 	box-shadow:10px 10px 5px #888;
 	display:inline-block;
 }
-.asa, .frito, .tkml1, .touch, .kiss, .rocky, .tkml2, .tkml2, .tkml3, .tkml4, .xmascard, .bluenred, .whysoblue, .barscene{
+.asa, .frito, .tkml1, .touch, .kiss, .rocky, .nye, .tkml2, .tkml2, .tkml3, .tkml4, .xmascard, .bluenred, .whysoblue, .barscene{
 	display: inline-block;
 	border:none;
 	width:200px;
@@ -320,6 +320,9 @@ h6{
 }
 .rocky{
 	background: url(../assets/work_sprite.jpg) 0 -575px;
+}
+.nye{
+	background: url(../assets/work_sprite.jpg) 0 -1495px;
 }
 .tkml2{
 	background: url(../assets/work_sprite.jpg) 0 -690px;
@@ -632,7 +635,7 @@ only screen and (max-device-width : 580px){
 		border-bottom: none;
 	}	
 }
-@media only screen and (max-width : 320px),
+@media only screen and (max-width : 320px) and (min-width: 319px),
 only screen and (max-device-width : 320px){
 	nav li a {
 		font: 400 32px/1.4 'Century Gothic', Helvetica, Verdana, Arial, sans-serif;
