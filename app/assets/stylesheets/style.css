@@ -648,9 +648,10 @@ only screen and (max-device-width : 320px){
 	h1{
 		margin-top: 100px;
 	}
-	}
 	.p, .co, .r, .t, .f, .o1, .l, .i, .o2{
 			margin-top: 6.2%;
 	}
+	}
+	
 }
 
