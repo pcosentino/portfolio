@@ -445,48 +445,33 @@ form{
 	margin-left: 5%;
 	position: absolute;
 }
-#socialmedia a {
-	position: absolute;
-	margin: 24px 0 0 0;
-}
 #socialmedia p{
 	margin: -15px 0 0 5px;
 	font-size: 12pt;
 }
-
 .linkedin, .github, .pixelapse, .email{
 	position: absolute;
 	border:none;
 	width:177px;
-	height: 60px;
-	background: url(../assets/xtras.png) 0 0;
-	margin-top: -20px;
+	height: 100px;
+	background: url(../assets/social_media_sprite.png) 0 0;	
 }
 .github{
-	background: url(../assets/xtras.png) 0 -57px;
-	margin-top: 85px;
+	margin-top: 105px;
+	background: url(../assets/social_media_sprite.png) 0 -105px;
 }
 .pixelapse{
-	background: url(../assets/xtras.png) 0 -114px;
-	margin-top: 190px;
+	margin-top: 205px;
+	background: url(../assets/social_media_sprite.png) 0 -205px;
 }
 .email{
-	height: 20px;
-	background: url(../assets/xtras.png) 0 -175px;
 	margin-top: 305px;
+	height: 20px;
+	background: url(../assets/social_media_sprite.png) 0 -305px;
 }
-.linked_icon, .git_icon, .pixel_icon{
+.email a{
 	position: absolute;
-	border: none;
-	width: 80px;
-	height: 80px;
-	background: url(../assets/socialmedia_sprite.png) 0 0;
-}
-.git_icon{
-	background: url(../assets/socialmedia_sprite.png) 0 160px;
-}
-.pixel_icon{
-	background: url(../assets/socialmedia_sprite.png) 0 80px;
+margin: 15px 0 0 0;
 }
 #footer{
 	position: relative; 
