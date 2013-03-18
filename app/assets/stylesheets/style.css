@@ -237,6 +237,16 @@ nav li:last-child a {
 	-webkit-transform:rotate(-7deg); /* Safari and Chrome */
 	-o-transform:rotate(-7deg); /* Opera */
 }	
+.pic img{
+	-webkit-transition: all 0.5s ease-in-out; 
+	-moz-transition: all 0.5s ease-in-out; 
+	-o-transition: all 0.5s ease-in-out;
+}
+.pic img:hover{
+	-webkit-transform: rotate(7deg); 
+	-moz-transform: rotate(7deg); 
+	-o-transform: rotate(7deg);
+}
 .thatsme{
 	margin: 0px -45px -20px 0;
 }
@@ -483,7 +493,6 @@ margin: 15px 0 0 0;
 	font-family: "Futura", Arial, sans-serif; 
 	font-weight: bold;
 	font-size: 60px; 
-	color:#624107; 
 	text-align: center;
 }
 
