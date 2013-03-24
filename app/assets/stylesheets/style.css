@@ -219,8 +219,9 @@ nav li:last-child a {
 	font-size: 60px; 
 	font-family: "Futura", sans-serif;  
 	font-weight: bold;
-	background:#efe6d6;
-	border:solid #EFE6D6 1px;
+	background:#ecf6ff;
+	border:solid #ecf6ff 1px;
+	border-radius: 50px;
 }
 .para1{
 	display: inline-block;
@@ -287,12 +288,13 @@ nav li:last-child a {
 	width: 900px\9;
 	height: 100%; 
 	margin:50px auto 100px auto;
-	background:#efe6d6;
+	background:#ecf6ff;
 	font-family: "Futura", Arial, sans-serif; 
 	font-weight: bold;
 	font-size: 60px; 
 	color:#624107; 
-	border:solid #EFE6D6 1px;
+	border:solid #ecf6ff 1px;
+	border-radius: 50px;
 }	
 #work{
 	margin: 20px 30px 50px 70px;
@@ -379,7 +381,7 @@ a.shadow div.caption {
 #other {
 	border: none;
 	float: right;
-	margin-top: -70px;
+	margin-top: -95px;
 }
 #other img{
 	border: none;
@@ -399,8 +401,9 @@ a.shadow div.caption {
 	padding-bottom: 50px;
 	font-size: 60px; 
 	font-family: "Futura", sans-serif; 
-	background:#efe6d6;
-	border:#EFE6D6 1px solid;
+	background:#ecf6ff;
+	border:#ecf6ff 1px solid;
+	border-radius: 50px;
 }
 #contact_blurb{
 	color:#666;
