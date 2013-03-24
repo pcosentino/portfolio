@@ -243,11 +243,24 @@ nav li:last-child a {
 	-moz-transition: all 0.5s ease-in-out; 
 	-o-transition: all 0.5s ease-in-out;
 }
-.pic img:hover{
+/*.pic img:hover{
 	-webkit-transform: rotate(7deg); 
 	-moz-transform: rotate(7deg); 
 	-o-transform: rotate(7deg);
+}*/
+img:hover {
+    -webkit-animation-name: thumb;
+    -webkit-animation-duration: 1000ms;
+    -webkit-transform-origin:50% 50%;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
 }
+@-webkit-keyframes thumb {
+    0% { -webkit-transform: rotate(3deg); }
+    50% { -webkit-transform: rotate(-3deg); }
+    100% { -webkit-transform: rotate(3deg); }
+}
+
 .thatsme{
 	margin: 0px -45px -20px 0;
 }
