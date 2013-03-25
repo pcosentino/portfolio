@@ -1,6 +1,7 @@
 
 body{
-	background:url(../assets/blue.jpg);
+	background-image:url(../assets/blue.jpg);
+	background-attachment: fixed;
 	margin:0px;
 }
 p { 
