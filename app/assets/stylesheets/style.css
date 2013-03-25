@@ -249,7 +249,7 @@ nav li:last-child a {
 	-moz-transform: rotate(7deg); 
 	-o-transform: rotate(7deg);
 }*/
-img:hover {
+.pic img:hover {
     -webkit-animation-name: thumb;
     -webkit-animation-duration: 1000ms;
     -webkit-transform-origin:50% 50%;
