@@ -202,7 +202,37 @@ nav li:last-child a {
 }
 .title-line span { position: relative; top:28px; right:13px;}
 
-
+#compass{
+	background: url(../assets/compass.png) no-repeat;
+	width: 277px;
+	height: 505px;
+	margin: 25% 0 0 -145px;
+	position: absolute;
+}
+#triangle{
+	background: url(../assets/triangle.png) no-repeat;
+	margin: 35% 0 0 -280px;
+	width: 877px;
+	height: 595px;
+	z-index: -1;
+	position: absolute;
+}
+#curve{
+	background: url(../assets/curve.png) no-repeat;
+	margin: 35% 0 0 450px;
+	width: 450px;
+	height: 320px;
+	z-index: -1;
+	position: absolute;
+}
+#pencil{
+	background: url(../assets/pencil.png) no-repeat;
+	margin: 35% 0 0 410px;
+	width: 410px;
+	height: 352px;
+	z-index: -1;
+	position: absolute;
+}
 
 
 
@@ -671,6 +701,7 @@ only screen and (max-device-width : 320px){
 	.p, .co, .r, .t, .f, .o1, .l, .i, .o2{
 			margin-top: 6.2%;
 	}
+
 	}
 	
 }
