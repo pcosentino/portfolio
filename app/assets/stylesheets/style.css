@@ -227,21 +227,21 @@ nav li:last-child a {
 }
 #curve{
 	background: url(../assets/curve.png) no-repeat;
-	margin: 45% 0 0 450px;
-	width: 450px;
+	margin: 45% 0 0 400px;
+	width: 476px;
 	height: 320px;
 	z-index: -1;
 	position: absolute;
 }
 #pencil{
 	background: url(../assets/pencil.png) no-repeat;
-	margin: 45% 0 0 510px;
-	width: 410px;
-	height: 352px;
+	margin: 45% 0 0 410px;
+	width: 431px;
+	height: 354px;
 	z-index: -1;
 	position: absolute;
 }
-#container div{
+/*#container div{
     position:absolute;
     
     width:200%;
@@ -249,7 +249,7 @@ nav li:last-child a {
 }
 
 
-
+*/
 
 
 
