@@ -97,7 +97,15 @@ nav li a:hover {
 nav li:last-child a {
 	border: none;
 }
-
+.curl{
+	height: 340px;
+	width: 150px;
+	background: url(../assets/curl.png);
+	position: fixed;
+	bottom:0;
+	right:0;
+	z-index: 100;
+}
 
 
 
@@ -219,7 +227,7 @@ nav li:last-child a {
 }
 #curve{
 	background: url(../assets/curve.png) no-repeat;
-	margin: 35% 0 0 450px;
+	margin: 45% 0 0 450px;
 	width: 450px;
 	height: 320px;
 	z-index: -1;
@@ -227,7 +235,7 @@ nav li:last-child a {
 }
 #pencil{
 	background: url(../assets/pencil.png) no-repeat;
-	margin: 35% 0 0 410px;
+	margin: 45% 0 0 410px;
 	width: 410px;
 	height: 352px;
 	z-index: -1;
