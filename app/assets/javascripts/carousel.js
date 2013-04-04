@@ -74,6 +74,21 @@ $('.lightbox').live('click',function(){
     $('html,body').animate({scrollTop: 0}, 1200, 'easeInOutQuad');
     }
 
+        
+    var strength1 = 20;
+    var strength2 = 100;
+    var strength3 = 20;
+    var strength4 = 100;
+    $("html").mousemove(function(e){
+        var pageX = e.pageX - ($(window).width() / 2);
+        var pageY = e.pageY - ($(window).height() / 2);
+        var newvalueX = 1* pageX * -1;
+        var newvalueY = 1* pageY * -1;
+        $('#curve').css("background-position", (strength1 / $(window).width() * pageX * -1)+"px "+(strength1  / $(window).height() *  -1)+"px");
+        $('#pencil').css("background-position", (strength2 / $(window).width() * pageX * -1)+"px "+(strength2  / $(window).height() * -1)+"px");
+        $('#triangle').css("background-position", (strength3 / $(window).width() * pageX * -1)+"px "+(strength3  / $(window).height() *  -1)+"px");
+        $('#compass').css("background-position", (strength4 / $(window).width() * pageX * -1)+"px "+(strength4  / $(window).height() * -1)+"px");
+    });
 
 $(document).ready(function() {
 
