@@ -241,7 +241,7 @@ nav li:last-child a {
 	z-index: -1;
 	position: absolute;
 }
-/*#container div{
+#container div{
     position:absolute;
     
     width:200%;
@@ -249,7 +249,7 @@ nav li:last-child a {
 }
 
 
-*/
+
 
 
 
