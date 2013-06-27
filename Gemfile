@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'browser'
+
 gem 'rails', '3.2.8'
 gem 'mail'
 gem 'newrelic_rpm'
