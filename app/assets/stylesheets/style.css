@@ -368,12 +368,18 @@ h6{
 	box-shadow:10px 10px 5px #888;
 	display:inline-block;
 }
-.uso, .wgn, .frito_speed, .asa, .frito, .tkml1, .touch, .kiss, .rocky, .nye, .tkml2, .tkml2, .tkml3, .tkml4, .xmascard, .bluenred, .whysoblue, .barscene{
+.duck, .golf_putt, .uso, .wgn, .frito_speed, .asa, .frito, .tkml1, .touch, .kiss, .rocky, .nye, .tkml2, .tkml2, .tkml3, .tkml4, .xmascard, .bluenred, .whysoblue, .barscene{
 	display: inline-block;
 	border:none;
 	width:200px;
 	height: 115px;
 	background: url(../assets/work_sprite.jpg) 0 0px;
+}
+.duck{
+	background: url(../assets/work_sprite.jpg) 0 -1955px;
+}
+.golf_putt{
+	background: url(../assets/work_sprite.jpg) 0 -2070px;
 }
 .uso{
 	background: url(../assets/work_sprite.jpg) 0 -1840px;
