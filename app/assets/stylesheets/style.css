@@ -38,14 +38,6 @@ a {
 	font-size:20px;
 	border:none;
 }
-
-
-
-
-
-
-
-
 /***************NAVAGATION STYLING***************/
 * {
 	padding: 0;
@@ -106,15 +98,6 @@ nav li:last-child a {
 	right:0;
 	z-index: 100;
 }
-
-
-
-
-
-
-
-
-
 /***************HOME PAGE STYLING***************/
 #home { 
 	position: relative; 
@@ -209,7 +192,6 @@ nav li:last-child a {
 	margin: 175px 0 0 290px;
 }
 .title-line span { position: relative; top:28px; right:13px;}
-
 #compass{
 	background: url(../assets/compass.png) no-repeat;
 	width: 277px;
@@ -241,18 +223,6 @@ nav li:last-child a {
 	z-index: -1;
 	position: absolute;
 }
-/*#container div{
-    position:absolute;
-    
-    width:200%;
-    height: 5000px;
-}
-*/
-
-
-
-
-
 /***************ALL ABOUT ME PAGE STYLING***************/
 #about{
 	position: relative; 
@@ -282,29 +252,6 @@ nav li:last-child a {
 	-webkit-transform:rotate(-7deg); /* Safari and Chrome */
 	-o-transform:rotate(-7deg); /* Opera */
 }	
-.pic img{
-	-webkit-transition: all 0.5s ease-in-out; 
-	-moz-transition: all 0.5s ease-in-out; 
-	-o-transition: all 0.5s ease-in-out;
-}
-/*.pic img:hover{
-	-webkit-transform: rotate(7deg); 
-	-moz-transform: rotate(7deg); 
-	-o-transform: rotate(7deg);
-}*/
-.pic img:hover {
-    -webkit-animation-name: thumb;
-    -webkit-animation-duration: 1000ms;
-    -webkit-transform-origin:50% 50%;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-}
-@-webkit-keyframes thumb {
-    0% { -webkit-transform: rotate(3deg); }
-    50% { -webkit-transform: rotate(-3deg); }
-    100% { -webkit-transform: rotate(3deg); }
-}
-
 .thatsme{
 	margin: 0px -45px -20px 0;
 }
@@ -326,18 +273,6 @@ nav li:last-child a {
   margin-top:5px;
   font-size: .7em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /***************MY PORTFOLIO PAGE STYLING***************/
  #portfolio{ 
 	position: relative; 
@@ -458,12 +393,6 @@ a.shadow div.caption {
 #other img{
 	border: none;
 }
-
-
-
-
-
-
 /***************CONTACT PAGE STYLING***************/
 #contact{
 	position: relative; 
@@ -556,7 +485,7 @@ form{
 }
 .email a{
 	position: absolute;
-margin: 15px 0 0 0;
+	margin: 15px 0 0 0;
 }
 #footer{
 	position: relative; 
@@ -570,10 +499,7 @@ margin: 15px 0 0 0;
 	font-size: 60px; 
 	text-align: center;
 }
-
-
-
-
+/*************** MEDIA QUERIES ***************/
 @media screen and (max-width: 377px) {
 	nav{
 		width: 363px;
@@ -606,7 +532,6 @@ margin: 15px 0 0 0;
 	.para1{
 		margin: 20px 30px 0px 30px;
 	}
-	
 }
 @media screen and (max-width: 750px) {
 	#home{
@@ -656,12 +581,7 @@ margin: 15px 0 0 0;
 		margin-top: 15%;
 	}
 }
-
-
-
-
-
-/* NAVIGATION MEDIA QUERIES*/
+/*************** NAVIGATION MEDIA QUERIES ***************/
 @media only screen and (max-width : 1220px),
 only screen and (max-device-width : 1220px){
 	nav li a {
@@ -681,7 +601,6 @@ only screen and (max-device-width : 1008px){
 		border-bottom: none;
 	}
 }
-
 @media only screen and (max-width : 580px),
 only screen and (max-device-width : 580px){
 	nav li a {
@@ -714,6 +633,6 @@ only screen and (max-device-width : 320px){
 	.p, .co, .r, .t, .f, .o1, .l, .i, .o2{
 			margin-top: 6.2%;
 	}
-	}
 }
+
 
