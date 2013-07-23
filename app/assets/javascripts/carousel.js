@@ -1,15 +1,15 @@
 $(document).ready(function(){
   (function hereWeGo() { 
       var positions = {
-         1: {scale:1, left:"5px", top:"14.7%"},
-         2: {scale:1, left:"92px", top:"14.7%"},
-         3: {scale:1, left:"189px", top:"14.7%"},
-         4: {scale:1, left:"235px", top:"14.7%"},
-         5: {scale:1, left:"282px", top:"14.7%"},
-         6: {scale:1, left:"328px", top:"14.7%"},
-         7: {scale:1, left:"423px", top:"14.7%"},
+         1: {scale:1, left:"10px", top:"17.4%"},
+         2: {scale:1, left:"99px", top:"16.2%"},
+         3: {scale:1, left:"191px", top:"15.9%"},
+         4: {scale:1, left:"235px", top:"14.5%"},
+         5: {scale:1, left:"282px", top:"14.5%"},
+         6: {scale:1, left:"332px", top:"16%"},
+         7: {scale:1, left:"424px", top:"14.7%"},
          8: {scale:1, left:"455px", top:"14.7%"},
-         9: {scale:1, left:"480px", top:"14.7%"}
+         9: {scale:1, left:"488px", top:"16%"}
         };
       var boxes = [$('[data-pos="1"]'), $('[data-pos="8"]'), $('[data-pos="2"]'), $('[data-pos="4"]'), $('[data-pos="7"]'), $('[data-pos="5"]'), $('[data-pos="6"]'), $('[data-pos="3"]'), $('[data-pos="9"]'),];
       //drop things into place (intro)
