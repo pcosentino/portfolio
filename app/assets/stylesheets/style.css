@@ -189,6 +189,7 @@ nav li:last-child a {
 	font-size: 24px;
 	color:#004269;
 	margin: 175px 0 0 290px;
+	margin:210px 0 0 280px \9; 
 }
 .title-line span { position: relative; top:28px; right:13px;}
 #compass{
