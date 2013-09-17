@@ -436,10 +436,11 @@
 	  <h1>CONTACT</h1>
     <div class="sub">I'm so social..</div>
       <p id="contact_blurb">
-        Want to get in touch? Well you're in the right place! I'm currently available for freelance projects. If you like what you see and you're interested in working with me, please, get in touch using one of the methods below. Or feel free to just say hi. I like that too.
+        Want to get in touch? Well you're in the right place! I'm currently available for freelance projects. If you like what you see and you're interested in working with me, please, get in touch using one of the methods below. Or feel free to just say hi at<a href="mailto:pcportfolio88@gmail.com?Subject=Portfolio%20Notification" target="blank">
+          <u>pcportfolio88@gmail.com</u>.
+      </a> I like that too.
      </p>
 
-     
     <%= form_tag url_for(:action => 'send_email'), :remote => true, :id => 'contact_form' do %>
       <div id="tag1">First Name:</div>
       <%= text_field_tag :first_name, '', :name => "user[first_name]", :size => "33" %><br>
@@ -452,26 +453,21 @@
       <%= submit_tag "Submit", :id => "submit_form_button" %>
     <% end %>
 
-    
-
     <span id="socialmedia">
-        <a href="http://www.linkedin.com/profile/view?id=106884262&trk=tab_pro" target="blank">
-          <span class="linkedin"></span>
-        </a>
-        <a href="https://github.com/pcosentino" target="blank">
-          <span class="github"></span>
-        </a>
-        <a href="https://www.pixelapse.com/pcosentino" target="blank">
-          <span class="pixelapse"></span>
-        </a>
-
-      <div class="email">
-        <a href="mailto:pcportfolio88@gmail.com?Subject=Portfolio%20Notification" target="blank">
-          <u>pcportfolio88@gmail.com</u>
-        </a>
-      </div>
+      <a href="http://www.linkedin.com/profile/view?id=106884262&trk=tab_pro" target="blank">
+        <div class="linkedin"></div>
+      </a>
+      <a href="https://www.twitter.com/pcportfolio" target="blank">
+        <div class="twitter"></div>
+      </a>
+      <a href="https://github.com/pcosentino" target="blank">
+        <div class="github"></div>
+      </a>
+      <a href="https://www.pixelapse.com/pcosentino" target="blank">
+        <div class="pixelapse"></div>
+      </a>
+      
     </span>
-
 
 	</div>
 
