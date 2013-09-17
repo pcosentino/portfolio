@@ -254,6 +254,9 @@ nav li:last-child a {
 	-webkit-transform:rotate(-7deg); /* Safari and Chrome */
 	-o-transform:rotate(-7deg); /* Opera */
 }	
+.pic .avatar{
+	border-radius: 30px;
+}
 .thatsme{
 	margin: 0px -45px -20px 0;
 }
@@ -304,6 +307,7 @@ h6{
 	height:115px;
 	box-shadow:10px 10px 5px #888;
 	display:inline-block;
+	
 }
 .duck, .golf_putt, .uso, .wgn, .frito_speed, .asa, .frito, .tkml1, .touch, .kiss, .rocky, .nye, .tkml2, .tkml2, .tkml3, .tkml4, .xmascard, .bluenred, .whysoblue, .barscene{
 	display: inline-block;
@@ -311,6 +315,7 @@ h6{
 	width:200px;
 	height: 115px;
 	background: url(../assets/work_sprite.jpg) 0 0px;
+	
 }
 .duck{
 	background: url(../assets/work_sprite.jpg) 0 -1955px;
