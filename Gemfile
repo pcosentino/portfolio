@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+gem 'rake', '10.1.0'
 gem 'rails', '3.2.8'
 gem 'mail'
 gem 'newrelic_rpm'
