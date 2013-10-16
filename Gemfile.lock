@@ -124,5 +124,6 @@ DEPENDENCIES
   newrelic_rpm
   pry
   rails (= 3.2.8)
+  rake (= 10.1.0)
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
