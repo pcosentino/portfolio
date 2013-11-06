@@ -7,7 +7,7 @@ gem 'newrelic_rpm'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 # gem 'sqlite3'
-# gem 'mysql', '2.8.1'
+  gem 'mysql', '2.8.1'
 group :development do
 	gem 'pry'
 end
