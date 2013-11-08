@@ -94,25 +94,19 @@ $(document).ready(function() {
 
   // Set up link thumbnails
   $('a.shadow').each(function(){
-    
-    
     var videoCaption = $(this).attr('videocaption');
-    
-   
     $(this).html('<div class="caption">'+videoCaption+'</div>');
   });
-  
+
   $('a.shadow').hover(
     function(){
       var captionPosition = 85 - $(this).children('.caption').height();
       var iconPositionTop = captionPosition-32;
       $(this).children('.caption').animate({top:captionPosition+'px'},250);
-      
     },
     function(){
       $(this).children('.caption').animate({top:'116px'},250);
-      
     }
   );
-  
+
 });
