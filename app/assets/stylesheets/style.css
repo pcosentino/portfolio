@@ -239,14 +239,13 @@ nav li:last-child a {
 	border:solid #ecf6ff 1px;
 	border-radius: 50px;
 }
-.para1{
+.para{
 	display: inline-block;
-  margin: 20px 30px 0px 360px;
+  /*margin: 20px 30px 0px 360px;*/
 }
 .pic{
-  display: inline-block;
-  margin: 3.5% 75px 5% 15px;
-  position: absolute;
+	float: left;
+  margin: 6% 75px 15% 15px;
   -moz-transform: rotate(-7deg);  
 	transform:rotate(-7deg);
 	-ms-transform:rotate(-7deg); /* Internet Explorer */
@@ -265,7 +264,7 @@ nav li:last-child a {
   font-size: 0.4em;
   margin-left: 355px;
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 .column{
   color:#666;
@@ -543,7 +542,7 @@ form{
 	.pic{
    	position: relative;
   }
-	.para1{
+	.para{
 		margin: 20px 30px 0px 30px;
 	}
 }
@@ -657,8 +656,32 @@ only screen and (max-device-width : 320px){
 		margin-top: 100px;
 	}
 	.p, .co, .r, .t, .f, .o1, .l, .i, .o2{
-			margin-top: 6.2%;
+			margin-top: 8.5%;
+	}
+	#title{
+			margin-left:38%;
 	}
 }
-
+/*iPhone5 LANDSCAPE ONLY*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+	nav li a{
+		padding:2%;
+	}
+	.curl{
+		display: none;
+	}
+	#dimensions{
+		margin-top:-10px;
+	}
+	.p, .co, .r, .t, .f, .o1, .l, .i, .o2{
+			margin-top: 3%;
+	}
+	#title{
+		margin-top:17.5%;
+		margin-left:37.5%;
+	}
+}
 
