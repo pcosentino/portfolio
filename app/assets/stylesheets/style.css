@@ -245,7 +245,7 @@ nav li:last-child a {
 }
 .pic{
 	float: left;
-  margin: 6% 75px 15% 15px;
+  margin: 2% 75px 13% 15px;
   -moz-transform: rotate(-7deg);  
 	transform:rotate(-7deg);
 	-ms-transform:rotate(-7deg); /* Internet Explorer */
