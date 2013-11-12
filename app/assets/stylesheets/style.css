@@ -131,6 +131,7 @@ nav li:last-child a {
 }
 .playstation > div {
 	position:absolute;
+	text-decoration: none;
 }
 .p {
 	background:url(../assets/logo_sprite.png) no-repeat 0 0;
@@ -225,7 +226,7 @@ nav li:last-child a {
 	z-index: -1;
 	position: absolute;
 }
-/***************ALL ABOUT ME PAGE STYLING***************/
+/*************** ABOUT ME PAGE STYLING***************/
 #about{
 	position: relative; 
 	width: 90%;
@@ -239,10 +240,6 @@ nav li:last-child a {
 	border:solid #ecf6ff 1px;
 	border-radius: 50px;
 }
-.para{
-	display: inline-block;
-  /*margin: 20px 30px 0px 360px;*/
-}
 .pic{
 	float: left;
   margin: 2% 75px 13% 15px;
@@ -253,29 +250,44 @@ nav li:last-child a {
 	-webkit-transform:rotate(-7deg); /* Safari and Chrome */
 	-o-transform:rotate(-7deg); /* Opera */
 }	
-.pic .avatar{
-	border-radius: 30px;
-}
-.thatsme{
-	margin: 0px -45px -20px 0;
-}
 #skills{
 	color:#004269;
   font-size: 0.4em;
-  margin-left: 355px;
+  margin-left: 200px;
   margin-top: 50px;
   margin-bottom: 80px;
 }
-.column{
-  color:#666;
-  display: inline-block;
+#about p{
+	font-size: .3em;
 }
-#column_item{
+#about #odd{
+	margin-left: 280px;
+}
+#about ul li{
   background:url("../assets/point.png") no-repeat;
-  margin-right: 40px;
-	padding-left: 25px;
-  margin-top:5px;
-  font-size: .7em;
+  padding-left: 25px;
+	padding-bottom: 3px;
+	list-style:none;
+	color:#666;
+	font-size: .7em;
+}
+#about ul{
+	display: inline-block;
+	margin-right:50px;
+}
+#about #skills h1{
+	font-family: "Futura", sans-serif;
+	color:#004269;
+	margin:0 0 10px 0;
+}
+#avatar{
+	background: url("../assets/avatar.png") no-repeat;
+	width: 262px;
+	height: 274px;
+	margin-left: 1%;
+	margin-top: 1%;
+	display: inline-block;
+	position: absolute;
 }
 /***************MY PORTFOLIO PAGE STYLING***************/
  #portfolio{ 
@@ -533,6 +545,9 @@ form{
 	h1{
 		font-size: .7em;
 	}
+	#skills h1{
+		font-size: 1em;
+	}
 }
 @media screen and (max-width: 603px) {
 	.sub { 
@@ -567,6 +582,15 @@ form{
 	#contact{
 		height:1100px !important;
 	}
+	#about #odd {
+		display: inline;
+	}
+	#avatar{
+		position: relative;
+		margin-top: 5%;
+		margin-left: 10%;
+		margin-bottom: -20%;
+	}
 }
 @media screen and (max-width: 750px) {
 	#home{
@@ -592,6 +616,15 @@ form{
 		margin: 41px 0 0 -58px;
 		font-size:0.6em;
 	}
+	#skills{
+		width: 315px;
+		margin: 10px auto;
+	}
+	#about #skills h1{
+	font-family: "Futura", sans-serif;
+	color:#004269;
+	margin:0 0 10px 0;
+	}
 }
 @media screen and (max-width: 768px) {
 	#socialmedia {
@@ -600,10 +633,6 @@ form{
 	}
 	#contact{
 		height:800px;
-	}
-	#skills{
-		margin-left: 30px;
-		margin-top: 15%;
 	}
 }
 /*************** NAVIGATION MEDIA QUERIES ***************/
