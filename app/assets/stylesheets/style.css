@@ -585,18 +585,25 @@ form{
 }
 /******iPhone5 Media Query******/
 @media screen and (device-aspect-ratio: 40/71) {
-	
+	#socialmedia{
+		margin-left:12%;
+	}
 }
 /******iPad Media Query******/
 @media screen and (device-aspect-ratio: 3/4){
 
 }
 @media screen and (max-width: 670px) {
-	#socialmedia{
-		display: block;
-		margin-top: 35px !important;
-		margin-left: 15% !important;
+	#socialmedia {
+width: 100%;
+display: block;
+margin-top: 10% !important;
+margin-left: 0;
 	}
+	.linkedin, .github, .pixelapse, .twitter {
+		float: left;
+		margin-left: 5%; 
+	}	
 	#contact{
 		height:1100px !important;
 	}
@@ -647,7 +654,7 @@ form{
 @media screen and (max-width: 768px) {
 	#socialmedia {
 		margin-top: 2.5%;
-		margin-left: -45px;
+		/*margin-left: -45px;*/
 	}
 	#contact{
 		height:800px;
