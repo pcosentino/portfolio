@@ -469,23 +469,24 @@ form{
 }
 #submit_form_button{
 	position: relative;
-  width: 25%;
+  width: 35%;
 	padding: 5px;
 	cursor: pointer;
 	font-family: "Futura", sans-serif;
-	color: #5784B0;
-  background-image: linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
-	background-image: -o-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
-	background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
-	background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
-	background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(98,98,98) 100%);
+	color: #fff;
+  background:#5784b0;
+  background-image: linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(60,94,127) 0%, rgb(87,132,176) 100%);
   font-size: 18px;
     -webkit-border-radius: 15px;
   	-moz-border-radius: 15px;
   border-radius: 15px;
   	-moz-box-shadow:0px 0px 15px #444444;
-  	-webkit-box-shadow:0px 0px 15px #444444;
-  margin-left: 4px;
+  	/*-webkit-box-shadow:0px 0px 15px #444444;*/
+  /*margin-left: 4px;*/
 }
 #email_address{
 	margin-bottom: 4px;
