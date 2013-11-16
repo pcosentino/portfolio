@@ -543,7 +543,7 @@ form{
 /*************** MEDIA QUERIES ***************/
 @media screen and (max-width: 377px) {
 	nav{
-		width: 363px;
+		width: 377px;
 	}
 }
 @media screen and (max-width: 420px) {
@@ -579,20 +579,6 @@ form{
 	.para{
 		margin: 20px 30px 0px 30px;
 	}
-}
-/******iPhone < 5 Media Query******/
-@media screen and (device-aspect-ratio: 2/3){
-
-}
-/******iPhone5 Media Query******/
-@media screen and (device-aspect-ratio: 40/71) {
-	#socialmedia{
-		margin-left:12%;
-	}
-}
-/******iPad Media Query******/
-@media screen and (device-aspect-ratio: 3/4){
-
 }
 @media screen and (max-width: 670px) {
 	#socialmedia {
@@ -694,7 +680,7 @@ only screen and (max-device-width : 580px){
 		border-bottom: none;
 	}	
 }
-@media only screen and (max-width : 320px) and (min-width: 319px),
+@media only screen and (max-width : 319px) and (min-width: 319px),
 only screen and (max-device-width : 320px){
 	nav li a {
 		font: 400 32px/1.4 'Century Gothic', Helvetica, Verdana, Arial, sans-serif;
@@ -717,7 +703,25 @@ only screen and (max-device-width : 320px){
 			margin-left:38%;
 	}
 }
-/*iPhone5 LANDSCAPE ONLY*/
+
+
+
+/******iPhone < 5 Media Query******/
+@media screen and (device-aspect-ratio: 2/3){
+
+}
+/******iPhone5 Media Query******/
+@media screen and (device-aspect-ratio: 40/71) {
+	#socialmedia{
+		margin-left:12%;
+	}
+}
+/******iPad Media Query******/
+@media screen and (device-aspect-ratio: 3/4){
+
+}
+
+/********iPhone5 LANDSCAPE ONLY*******/
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
@@ -739,4 +743,3 @@ and (orientation : landscape) {
 		margin-left:37.5%;
 	}
 }
-
