@@ -195,7 +195,14 @@ nav li:last-child a {
 	margin: 175px 0 0 290px;
 }
 .title-line span { position: relative; top:28px; right:13px;}
-#compass{
+#container{
+	position: absolute;
+	background: url(../assets/supplies.png)no-repeat;
+	width: 965px;
+	height: 640px;
+	margin: 35% 0 0 -85px;
+}
+/*#compass{
 	background: url(../assets/compass.png) no-repeat;
 	width: 277px;
 	height: 505px;
@@ -225,7 +232,7 @@ nav li:last-child a {
 	height: 354px;
 	z-index: -1;
 	position: absolute;
-}
+}*/
 /*************** ABOUT ME PAGE STYLING***************/
 #about{
 	position: relative; 
