@@ -459,7 +459,7 @@ a.shadow div.caption {
 	color:#666;
 	margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 3%;
+  margin-bottom: 6%;
 }
 #tag1{
 	color: #666;
@@ -721,6 +721,29 @@ only screen and (max-device-width : 320px){
 @media screen and (device-aspect-ratio: 40/71) {
 	#socialmedia{
 		margin-left:12%;
+	}
+	#first_name, #last_name, #email_address{
+		width: 100%; 
+		height: 59px;
+  	line-height: 40px; 
+  	font-size: .6em;
+  	margin-top: 80px;
+	}
+	#notes{
+		width: 100%; 
+		height: 200px;
+  	line-height: 40px; 
+  	font-size: .6em;
+  	margin-top: 80px;
+	}
+	#tag1{
+		font-size: .5em;
+	}
+	#submit_form_button{
+		width: 60%;
+		padding: 10px;
+		font-size: .6em;
+		margin-top:50px;
 	}
 }
 /******iPad Media Query******/
