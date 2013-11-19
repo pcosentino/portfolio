@@ -739,6 +739,9 @@ only screen and (max-device-width : 320px){
 		line-height: .5em;
 		margin-top: 1em;
 	}
+	#odd{
+		margin-top: 2em;
+	}
 	h6{
 		font-size: .6em;
 		border-bottom:3px dashed #b08357;
