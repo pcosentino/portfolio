@@ -786,7 +786,18 @@ only screen and (max-device-width : 320px){
 }
 /******iPad Media Query******/
 @media screen and (device-aspect-ratio: 3/4){
-
+		#first_name, #last_name, #email_address{
+		width: 10em; 
+		height: 1.5em;
+  	font-size: .3em;
+  	margin-top: 2.9em;
+	}
+		#notes{
+		width: 10em;; 
+		height: 5.5em;
+  	font-size: .3em;
+  	margin-top: 2.9em;
+	}
 }
 
 /********iPhone5 LANDSCAPE ONLY*******/
