@@ -599,7 +599,8 @@ margin-left: 0;
 		height:1100px !important;
 	}
 	#about #odd {
-		display: inline;
+		width: 90%;
+		margin: 1em auto;
 	}
 	#avatar{
 		position: relative;
@@ -875,13 +876,9 @@ only screen and (max-device-width : 320px){
 and (min-device-width : 320px) 
 and (max-device-width : 480px) 
 and (orientation : landscape) { 
-
-.playstation{
-	margin-top:-.6em;
-}
-
-
-
+	.playstation{
+		margin-top:-.6em;
+	}
 }
 /********iPhone5 LANDSCAPE ONLY*******/
 @media only screen 
