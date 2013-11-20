@@ -712,7 +712,76 @@ only screen and (max-device-width : 320px){
 
 /******iPhone < 5 Media Query******/
 @media screen and (device-aspect-ratio: 2/3){
-
+	.p, .co, .r, .t, .f, .o1, .l, .i, .o2{
+			margin-top: 1em;
+	}
+	h1{
+		font-size: 1.2em;
+		border-bottom: 3px dashed #b08357;
+	}
+	.sub{
+		font-size: .6em;
+	}
+	#about p{
+		font-weight: normal;
+		font-size: .6em;
+	}
+	#skills{
+		padding-top: 1em;
+		font-weight: normal;
+		font-size: .9em;	
+	}
+	#about #skills h1{
+		font-size: .9em;
+	}
+	#about li{
+		line-height: .5em;
+		margin-top: 1em;
+	}
+	#odd{
+		margin-top: 2em;
+	}
+	h6{
+		font-size: .6em;
+		border-bottom:3px dashed #b08357;
+	}
+	#contact_blurb{
+		font-size: .6em;
+	}
+	#contact_blurb a{
+		font-size: .7em;
+	}
+	#socialmedia{
+		margin-left:12%;
+	}
+	#first_name, #last_name, #email_address{
+		width: 10em; 
+		height: 59px;
+  	line-height: 40px; 
+  	font-size: .6em;
+  	margin-top: 80px;
+	}
+	#notes{
+		width: 10em;; 
+		height: 200px;
+  	line-height: 40px; 
+  	font-size: .6em;
+  	margin-top: 80px;
+	}
+	#tag1{
+		font-size: .6em;
+		margin-top: 1em;
+	}
+	#submit_form_button{
+		width: 60%;
+		padding: 10px;
+		font-size: .6em;
+		margin-top:50px;
+	}
+	#socialmedia div{
+		margin-left: 4em;
+		margin-top:3.5em;
+	}
 }
 /******iPhone5 Media Query******/
 @media screen and (device-aspect-ratio: 40/71) {
@@ -783,6 +852,7 @@ only screen and (max-device-width : 320px){
 		margin-left: 4em;
 		margin-top:3.5em;
 	}
+
 }
 /******iPad Media Query******/
 @media screen and (device-aspect-ratio: 3/4){
@@ -800,6 +870,19 @@ only screen and (max-device-width : 320px){
 	}
 }
 
+/********iPhone < 5 LANDSCAPE ONLY*******/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape) { 
+
+.playstation{
+	margin-top:-.6em;
+}
+
+
+
+}
 /********iPhone5 LANDSCAPE ONLY*******/
 @media only screen 
 and (min-device-width : 320px) 
