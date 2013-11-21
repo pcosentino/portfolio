@@ -24,7 +24,7 @@ h1{
 	color:#5784B0;/*mozilla*/
 	border-bottom: 2px dashed #b08357;
 }
-.sub { 
+h2 { 
 	color: #004269;
 	margin-left:200px;
 	margin-top: 45px;
@@ -573,7 +573,7 @@ footer{
 	}
 }
 @media screen and (max-width: 603px) {
-	.sub { 
+	h2 { 
 		margin-left:93px;
 		font-size: .3em; 
 	}	
@@ -720,7 +720,7 @@ only screen and (max-device-width : 320px){
 		font-size: 1.2em;
 		border-bottom: 3px dashed #b08357;
 	}
-	.sub{
+	h2{
 		font-size: .6em;
 	}
 	#about p{
@@ -790,7 +790,7 @@ only screen and (max-device-width : 320px){
 		font-size: 1.2em;
 		border-bottom: 3px dashed #b08357;
 	}
-	.sub{
+	h2{
 		font-size: .6em;
 	}
 	#about p{
