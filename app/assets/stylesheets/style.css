@@ -133,55 +133,55 @@ nav li:last-child a {
 	position:absolute;
 	text-decoration: none;
 }
-.p {
+#p {
 	background:url(../assets/logo_sprite.png) no-repeat 0 0;
 	left:10px;	
 	width: 80px;
 	height: 155px;
 }
-.co {
+#co {
 	background:url(../assets/logo_sprite.png) no-repeat -80px 0;
 	left:99px;	
 	width: 84px;
 	height: 100px;	
 }
-.r {
+#r {
 	background:url(../assets/logo_sprite.png) no-repeat -164px 0;
 	left:189px;	
 	width: 44px;
 	height: 100px;	
 }
-.t {
+#t {
 	background:url(../assets/logo_sprite.png) no-repeat -207px 0;
 	left:235px;	
 	width: 47px;
 	height: 117px;	
 }
-.f {
+#f {
 	background:url(../assets/logo_sprite.png) no-repeat -251px 0;
 	left:282px;	
 	width: 47px;
 	height: 114px;	
 }
-.o1 {
+#o1 {
 	background:url(../assets/logo_sprite.png) no-repeat -300px 0;
 	left:328px;	
 	width: 86px;
 	height: 101px;	
 }
-.l {
+#l {
 	background:url(../assets/logo_sprite.png) no-repeat -383px 0;
 	left:423px;	
 	width: 23px;
 	height: 112px;	
 }
-.i {
+#i {
 	background:url(../assets/logo_sprite.png) no-repeat -406px 0;
 	left:455px;	
 	width: 22px;
 	height: 112px;	
 }
-.o2 {
+#o2 {
 	background:url(../assets/logo_sprite.png) no-repeat -300px 0;
 	left:480px;	
 	width: 86px;
@@ -514,20 +514,20 @@ form{
 	margin: -15px 0 0 5px;
 	font-size: 12pt;
 }
-.linkedin, .github, .pixelapse, .twitter{
+#linkedin, #github, #pixelapse, #twitter{
 	border:none;
 	width:70px;
 	height: 70px;
 	margin-bottom: 10px;
 	background: url(../assets/linkedin.png);	
 }
-.twitter{
+#twitter{
 	background: url(../assets/twitter.png);
 }
-.github{
+#github{
 	background: url(../assets/github.png);
 }
-.pixelapse{
+#pixelapse{
 	background: url(../assets/pixelapse.png);
 }
 footer{
@@ -591,7 +591,7 @@ display: block;
 margin-top: 10% !important;
 margin-left: 0;
 	}
-	.linkedin, .github, .pixelapse, .twitter {
+	#linkedin, #github, #pixelapse, #twitter {
 		float: left;
 		margin-left: 5%; 
 	}	
