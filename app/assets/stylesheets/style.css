@@ -703,7 +703,7 @@ only screen and (max-device-width : 320px){
 	h1{
 		margin-top: 100px;
 	}
-	.p, .co, .r, .t, .f, .o1, .l, .i, .o2{
+	#p, #co, #r, #t, #f, #o1, #l, #i, #o2{
 			margin-top: 8.5%;
 	}
 	#title{
@@ -715,7 +715,7 @@ only screen and (max-device-width : 320px){
 
 /******iPhone < 5 Media Query******/
 @media screen and (device-aspect-ratio: 2/3){
-	.p, .co, .r, .t, .f, .o1, .l, .i, .o2{
+	#p, #co, #r, #t, #f, #o1, #l, #i, #o2{
 			margin-top: 1em;
 	}
 	h1{
@@ -896,7 +896,7 @@ and (orientation : landscape) {
 	#dimensions{
 		margin-top:-10px;
 	}
-	.p, .co, .r, .t, .f, .o1, .l, .i, .o2{
+	#p, #co, #r, #t, #f, #o1, #l, #i, #o2{
 			margin-top: 3%;
 	}
 	#title{
