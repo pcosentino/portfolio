@@ -326,7 +326,7 @@ h6{
 	display:inline-block;
 	border-radius: 20px;
 }
-.duck, .golf_putt, .uso, .wgn, .frito_speed, .asa, .frito, .becker, .tkml1, .touch, .kiss, .rocky, .nye, .njoy, .tkml2, .tkml2, .tkml3, .tkml4, .xmascard, .bluenred, .whysoblue, .barscene, #fiddle_one, #fiddle_two, .xmas_card{
+.duck, .golf_putt, .uso, .wgn, .frito_speed, .asa, .frito, .becker, .tkml1, .touch, .kiss, .rocky, .nye, .njoy, .tkml2, .tkml2, .tkml3, .tkml4, .xmascard, .bluenred, .whysoblue, .barscene, #fiddle_one, #fiddle_two, .xmas_card, #fiddle_three{
 	display: inline-block;
 	border:none;
 	width:200px;
@@ -394,7 +394,7 @@ h6{
 .barscene{
 	background: url(../assets/work_sprite.jpg) 0 -1380px;
 }
-#fiddle_one, #fiddle_two{
+#fiddle_one, #fiddle_two, #fiddle_three{
 	box-shadow:4px 4px 10px #888;
 	display:inline-block;
 	border-radius: 20px;
@@ -408,6 +408,9 @@ h6{
 }
 #fiddle_two{
 	background: url(../assets/work_sprite.jpg) 0 -2529px;
+}
+#fiddle_three{
+	background: url(../assets/work_sprite.jpg) 0 -2783px;
 }
 a.shadow {
 	display: block;
