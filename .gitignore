@@ -15,4 +15,4 @@
 /tmp
 
 # Ignore my personal info
-config/initializers/mail_config.rb
+/config/initializers/mail_config.rb
