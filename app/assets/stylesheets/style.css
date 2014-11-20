@@ -329,7 +329,7 @@ h6{
 }
 .duck, .golf_putt, .uso, .wgn, .frito_speed, .asa, .frito, .becker, .tkml1, .touch, .kiss, .rocky, .nye, .njoy, 
 .tkml2, .tkml2, .tkml3, .tkml4, .xmascard, .bluenred, .whysoblue, .barscene, #fiddle_one, #fiddle_two, .xmas_card, 
-#fiddle_three, .otmd, .fuf{
+#fiddle_three, .otmd, .fuf, .thanksgiving_poster, .primaloft{
 	display: inline-block;
 	border:none;
 	width:200px;
@@ -420,6 +420,12 @@ h6{
 }
 .fuf{
 	background: url(../assets/work_sprite.jpg) 0 -3055px;
+}
+.thanksgiving_poster{
+	background: url(../assets/work_sprite.jpg) 0 -3172px;
+}
+.primaloft{
+	background: url(../assets/work_sprite.jpg) 0 -3287px;
 }
 a.shadow {
 	display: block;
